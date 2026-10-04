@@ -1,0 +1,269 @@
+/* ==========================================================================
+   Baş ve Boyun Cerrahisi — Sınav Kitabı
+   WeasyPrint (CSS Paged Media) stil dosyası
+   ========================================================================== */
+
+@font-face { font-family: "BookSerif"; src: url("../assets/fonts/SourceSerif4-400.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "BookSerif"; src: url("../assets/fonts/SourceSerif4-400i.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "BookSerif"; src: url("../assets/fonts/SourceSerif4-600.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "BookSerif"; src: url("../assets/fonts/SourceSerif4-600i.ttf"); font-weight: 600; font-style: italic; }
+@font-face { font-family: "BookSerif"; src: url("../assets/fonts/SourceSerif4-700.ttf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "BookSerif"; src: url("../assets/fonts/SourceSerif4-700i.ttf"); font-weight: 700; font-style: italic; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-400.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-400i.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-500.ttf"); font-weight: 500; font-style: normal; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-600.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-600i.ttf"); font-weight: 600; font-style: italic; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-700.ttf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-800.ttf"); font-weight: 800; font-style: normal; }
+@font-face { font-family: "BookSans"; src: url("../assets/fonts/SourceSans3-900.ttf"); font-weight: 900; font-style: normal; }
+
+:root {
+  --ink: #1b2328;
+  --muted: #5b6770;
+  --primary: #0f4c5c;      /* koyu petrol */
+  --primary-2: #16697a;
+  --accent: #d1495b;       /* mercan */
+  --gold: #c58b1a;
+  --rule: #cfd8dc;
+  --zebra: #f3f7f8;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Sayfa düzeni                                                               */
+/* -------------------------------------------------------------------------- */
+@page {
+  size: A4;
+  margin: 19mm 17mm 18mm 19mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "BookSans"; font-size: 8.5pt; color: #5b6770;
+  }
+}
+@page :left {
+  margin: 19mm 19mm 18mm 17mm;
+  @top-left {
+    content: string(chaptertitle);
+    font-family: "BookSans"; font-size: 7.6pt; color: #5b6770;
+    letter-spacing: 0.02em;
+    vertical-align: bottom; padding-bottom: 2mm;
+  }
+  @top-right {
+    content: "Baş ve Boyun Cerrahisi";
+    font-family: "BookSans"; font-size: 7.6pt; color: #9aa6ad;
+    vertical-align: bottom; padding-bottom: 2mm;
+  }
+}
+@page :right {
+  @top-left {
+    content: "Bölüm " string(chapternum);
+    font-family: "BookSans"; font-size: 7.6pt; color: #9aa6ad;
+    vertical-align: bottom; padding-bottom: 2mm;
+  }
+  @top-right {
+    content: string(sectiontitle);
+    font-family: "BookSans"; font-size: 7.6pt; color: #5b6770;
+    vertical-align: bottom; padding-bottom: 2mm;
+  }
+}
+@page :blank { @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; } }
+
+@page cover { margin: 0; @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; } }
+@page front { @top-left { content: none; } @top-right { content: none; }
+  @bottom-center { content: counter(page, lower-roman); font-family: "BookSans"; font-size: 8.5pt; color: #5b6770; } }
+@page partpage { margin: 0; @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; } }
+@page chapteropen { @top-left { content: none; } @top-right { content: none; } }
+
+html { font-family: "BookSerif", "DejaVu Serif", serif; font-size: 10.1pt; color: #1b2328;
+  line-height: 1.40; text-align: justify; hyphens: auto; }
+body { margin: 0; }
+p { margin: 0 0 0.55em 0; orphans: 2; widows: 2; }
+strong, b { font-weight: 700; color: #0e2a33; }
+em, i { font-style: italic; }
+mark { background: #fff1a8; padding: 0 1px; color: inherit; }
+sup, sub { font-size: 0.72em; line-height: 0; }
+a { color: inherit; text-decoration: none; }
+hr { border: none; border-top: 0.6pt solid #cfd8dc; margin: 1em 0; }
+
+/* -------------------------------------------------------------------------- */
+/* Kapak                                                                      */
+/* -------------------------------------------------------------------------- */
+section.cover { page: cover; height: 297mm; width: 210mm; position: relative; overflow: hidden;
+  background: linear-gradient(160deg, #0b3a46 0%, #0f4c5c 45%, #16697a 100%); color: #fff; break-after: page; }
+.cover .band { position: absolute; left: 0; right: 0; top: 0; height: 9mm; background: #d1495b; }
+.cover .art { position: absolute; right: -10mm; top: 40mm; width: 150mm; opacity: 0.20; }
+.cover .kicker { position: absolute; left: 22mm; top: 34mm; font-family: "BookSans"; font-weight: 700;
+  font-size: 11pt; letter-spacing: 0.32em; color: #ffd6dc; }
+.cover h1.title { position: absolute; left: 22mm; top: 92mm; width: 170mm; margin: 0; font-family: "BookSans";
+  font-weight: 900; font-size: 46pt; line-height: 1.02; letter-spacing: -0.01em; color: #ffffff; text-align: left; }
+.cover .subtitle { position: absolute; left: 22mm; top: 158mm; width: 160mm; font-family: "BookSans"; font-weight: 400;
+  font-size: 15pt; line-height: 1.3; color: #d9eef2; text-align: left; }
+.cover .rule { position: absolute; left: 22mm; top: 151mm; width: 38mm; height: 2.2mm; background: #d1495b; }
+.cover .tags { position: absolute; left: 22mm; top: 200mm; width: 170mm; font-family: "BookSans"; font-size: 9.5pt; color: #bfe3ea; text-align: left; }
+.cover .tags span { display: inline-block; border: 0.8pt solid rgba(255,255,255,0.45); border-radius: 3mm;
+  padding: 1.2mm 3mm; margin: 0 2mm 2.5mm 0; }
+.cover .edition { position: absolute; left: 22mm; bottom: 22mm; font-family: "BookSans"; font-size: 10pt; color: #ffffff; text-align: left; }
+.cover .edition b { color: #fff; font-weight: 700; }
+
+/* -------------------------------------------------------------------------- */
+/* Ön kısım                                                                   */
+/* -------------------------------------------------------------------------- */
+section.front { page: front; }
+section.front + section.front { break-before: page; }
+.front h1 { font-family: "BookSans"; font-weight: 800; font-size: 20pt; color: #0f4c5c; margin: 0 0 6mm 0;
+  padding-bottom: 2.5mm; border-bottom: 1.5pt solid #d1495b; text-align: left; }
+.front h2 { font-family: "BookSans"; font-weight: 700; font-size: 12.5pt; color: #16697a; margin: 5mm 0 2mm; text-align: left; }
+.titlepage { text-align: center; padding-top: 55mm; }
+.titlepage .t1 { font-family: "BookSans"; font-weight: 900; font-size: 30pt; color: #0f4c5c; line-height: 1.05; }
+.titlepage .t2 { font-family: "BookSans"; font-size: 13pt; color: #5b6770; margin-top: 6mm; }
+.titlepage .t3 { font-family: "BookSans"; font-size: 10pt; color: #5b6770; margin-top: 60mm; line-height: 1.6; }
+.colophon { font-family: "BookSans"; font-size: 8.6pt; color: #5b6770; margin-top: 40mm; text-align: left; line-height: 1.5; }
+
+/* İçindekiler */
+nav.toc { page: front; break-before: page; }
+nav.toc h1 { font-family: "BookSans"; font-weight: 800; font-size: 20pt; color: #0f4c5c; margin: 0 0 5mm 0;
+  padding-bottom: 2.5mm; border-bottom: 1.5pt solid #d1495b; }
+nav.toc ul { list-style: none; margin: 0; padding: 0; }
+nav.toc li { margin: 0; padding: 0; text-align: left; }
+nav.toc li.toc-part { font-family: "BookSans"; font-weight: 800; font-size: 9.6pt; color: #d1495b; letter-spacing: 0.08em; margin-top: 4.2mm; margin-bottom: 1mm; break-after: avoid; }
+nav.toc li.toc-ch { font-family: "BookSans"; font-weight: 700; font-size: 10pt; color: #0f4c5c; margin-top: 1.6mm; break-after: avoid; }
+nav.toc li.toc-sec { font-family: "BookSans"; font-weight: 400; font-size: 8.7pt; color: #3a464d; padding-left: 9mm; line-height: 1.32; }
+nav.toc li a { display: block; }
+nav.toc li a::after { content: leader(dotted) target-counter(attr(href), page); color: #5b6770; }
+nav.toc li.toc-part a::after { content: none; }
+nav.toc .num { display: inline-block; min-width: 9mm; color: #d1495b; }
+nav.toc li.toc-sec .num { min-width: 10mm; color: #7d8a92; }
+
+/* -------------------------------------------------------------------------- */
+/* Kısım sayfası                                                              */
+/* -------------------------------------------------------------------------- */
+section.part { page: partpage; break-before: page; break-after: page; height: 297mm; width: 210mm; position: relative;
+  background: #0f4c5c; color: #fff; }
+section.part .pnum { position: absolute; left: 24mm; top: 70mm; font-family: "BookSans"; font-weight: 700; font-size: 13pt;
+  letter-spacing: 0.4em; color: #ffd6dc; }
+section.part .pbig { position: absolute; right: 18mm; top: 30mm; font-family: "BookSans"; font-weight: 900; font-size: 170pt;
+  color: rgba(255,255,255,0.08); line-height: 1; }
+section.part h1.ptitle { position: absolute; left: 24mm; top: 84mm; width: 160mm; margin: 0; font-family: "BookSans"; font-weight: 900;
+  font-size: 34pt; line-height: 1.05; color: #fff; text-align: left; string-set: chaptertitle content(text); }
+section.part .prule { position: absolute; left: 24mm; top: 128mm; width: 30mm; height: 2mm; background: #d1495b; }
+section.part ul.pch { position: absolute; left: 24mm; top: 140mm; width: 160mm; list-style: none; padding: 0; margin: 0;
+  font-family: "BookSans"; font-size: 11.5pt; color: #d9eef2; text-align: left; }
+section.part ul.pch li { margin: 0 0 2.6mm 0; }
+section.part ul.pch li span { display: inline-block; width: 14mm; color: #ffd6dc; font-weight: 700; }
+
+/* -------------------------------------------------------------------------- */
+/* Bölüm başlıkları                                                           */
+/* -------------------------------------------------------------------------- */
+section.chapter { break-before: page; }
+section.chapter > header.chopen { page: chapteropen; margin: 0 0 7mm 0; padding: 0 0 4mm 0; border-bottom: 1.2pt solid #cfd8dc; }
+header.chopen .chnum { font-family: "BookSans"; font-weight: 800; font-size: 10pt; letter-spacing: 0.32em; color: #d1495b; }
+header.chopen .chnum b { color: #d1495b; font-weight: 800; string-set: chapternum content(text); }
+header.chopen h1 { font-family: "BookSans"; font-weight: 900; font-size: 25pt; line-height: 1.06; color: #0f4c5c; margin: 2mm 0 0 0;
+  text-align: left; hyphens: manual; string-set: chaptertitle content(text); }
+header.chopen .chbar { width: 26mm; height: 1.8mm; background: #d1495b; margin-top: 4mm; }
+
+h2 { font-family: "BookSans"; font-weight: 800; font-size: 13.6pt; color: #0f4c5c; line-height: 1.15; margin: 6.5mm 0 2.4mm 0;
+  text-align: left; hyphens: manual; break-after: avoid; string-set: sectiontitle content(text); }
+h2 .hnum { color: #d1495b; }
+h3 { font-family: "BookSans"; font-weight: 700; font-size: 11.2pt; color: #16697a; margin: 4.5mm 0 1.6mm 0; text-align: left;
+  hyphens: manual; break-after: avoid; }
+h4 { font-family: "BookSans"; font-weight: 700; font-size: 10pt; color: #1b2328; margin: 3.2mm 0 1.2mm 0; text-align: left; break-after: avoid; }
+h5 { font-family: "BookSans"; font-weight: 600; font-size: 9.6pt; color: #5b6770; margin: 2.6mm 0 1mm 0; letter-spacing: 0.04em; break-after: avoid; }
+
+ul, ol { margin: 0.2em 0 0.65em 0; padding-left: 5.5mm; }
+li { margin: 0 0 0.18em 0; }
+li > p { margin: 0 0 0.2em 0; }
+ul li::marker { color: #16697a; }
+ol li::marker { color: #16697a; font-family: "BookSans"; font-weight: 700; }
+dl { margin: 0.3em 0 0.8em 0; }
+dt { font-family: "BookSans"; font-weight: 700; color: #0f4c5c; margin-top: 0.4em; }
+dd { margin: 0 0 0.2em 5mm; }
+
+/* -------------------------------------------------------------------------- */
+/* Tablolar                                                                   */
+/* -------------------------------------------------------------------------- */
+.tablecap { font-family: "BookSans"; font-weight: 700; font-size: 8.8pt; color: #0f4c5c; margin: 3.5mm 0 1.4mm 0;
+  text-align: left; break-after: avoid; }
+.tablecap .tnum { color: #d1495b; margin-right: 1.5mm; }
+table { width: 100%; border-collapse: collapse; margin: 0 0 4mm 0; font-family: "BookSans"; font-size: 8.55pt; line-height: 1.28;
+  text-align: left; hyphens: auto; }
+thead { display: table-header-group; }
+th { background: #0f4c5c; color: #ffffff; font-weight: 700; padding: 1.5mm 1.8mm; border: 0.5pt solid #0f4c5c; vertical-align: bottom; }
+td { padding: 1.25mm 1.8mm; border: 0.5pt solid #cfd8dc; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f3f7f8; }
+tr { break-inside: avoid; }
+td strong { color: #0f4c5c; }
+table.compact { font-size: 7.9pt; }
+
+/* -------------------------------------------------------------------------- */
+/* Kutular (admonition)                                                       */
+/* -------------------------------------------------------------------------- */
+.admonition { margin: 3mm 0 3.6mm 0; padding: 2.4mm 3.2mm 1.6mm 3.6mm; border-left: 2.4mm solid #0f4c5c; background: #eef2f4;
+  font-family: "BookSans"; font-size: 9.15pt; line-height: 1.36; border-radius: 0 1.6mm 1.6mm 0; text-align: left; hyphens: auto; }
+.admonition p { margin: 0 0 0.4em 0; }
+.admonition ul, .admonition ol { margin: 0.1em 0 0.4em 0; padding-left: 4.6mm; }
+.admonition li { margin-bottom: 0.12em; }
+.admonition .admonition-title { font-weight: 800; font-size: 8.3pt; letter-spacing: 0.09em; margin: 0 0 1.2mm 0; color: #0f4c5c; }
+.admonition table { font-size: 8.2pt; margin-bottom: 1.5mm; }
+
+.admonition.sinav   { background: #fff3e8; border-left-color: #e36414; }
+.admonition.sinav .admonition-title { color: #b34700; }
+.admonition.sinav .admonition-title::before { content: "★  "; font-family: "DejaVu Sans"; }
+.admonition.kilavuz { background: #e9f1fb; border-left-color: #1f5aa6; }
+.admonition.kilavuz .admonition-title { color: #1f5aa6; }
+.admonition.kilavuz .admonition-title::before { content: "§  "; }
+.admonition.guncel  { background: #f4ecfb; border-left-color: #7b2cbf; }
+.admonition.guncel .admonition-title { color: #6a1fa8; }
+.admonition.guncel .admonition-title::before { content: "▲  "; font-family: "DejaVu Sans"; }
+.admonition.klinik  { background: #eaf6ee; border-left-color: #2d8a4e; }
+.admonition.klinik .admonition-title { color: #23703f; }
+.admonition.klinik .admonition-title::before { content: "✚  "; font-family: "DejaVu Sans"; }
+.admonition.dikkat  { background: #fdeeee; border-left-color: #c0392b; }
+.admonition.dikkat .admonition-title { color: #a93226; }
+.admonition.dikkat .admonition-title::before { content: "⚠  "; font-family: "DejaVu Sans"; }
+.admonition.hafiza  { background: #fffaea; border-left-color: #c58b1a; }
+.admonition.hafiza .admonition-title { color: #9a6b0c; }
+.admonition.hafiza .admonition-title::before { content: "◆  "; font-family: "DejaVu Sans"; }
+.admonition.vaka    { background: #f4f5f6; border-left-color: #56616a; }
+.admonition.vaka .admonition-title { color: #3c454c; }
+.admonition.vaka .admonition-title::before { content: "▶  "; font-family: "DejaVu Sans"; }
+.admonition.ozet    { background: #0f4c5c; color: #eef7f9; border-left-color: #d1495b; border-radius: 1.6mm; padding: 3.2mm 4mm 2.2mm 4mm; }
+.admonition.ozet .admonition-title { color: #ffd6dc; font-size: 9pt; }
+.admonition.ozet strong { color: #ffffff; }
+.admonition.ozet li::marker { color: #ffb3bf; }
+.admonition.algoritma { background: #ffffff; border: 0.8pt solid #16697a; border-left: 2.4mm solid #16697a; }
+.admonition.algoritma .admonition-title { color: #16697a; }
+
+/* -------------------------------------------------------------------------- */
+/* Şekiller / diyagramlar                                                     */
+/* -------------------------------------------------------------------------- */
+figure.diagram { margin: 3mm 0 4mm 0; text-align: center; break-inside: avoid; }
+figure.diagram svg { max-width: 100%; height: auto; }
+figure.diagram img { max-width: 100%; }
+figure.diagram figcaption { font-family: "BookSans"; font-size: 8.4pt; color: #5b6770; margin-top: 1.5mm; text-align: center; }
+figure.diagram figcaption .fnum { font-weight: 700; color: #d1495b; margin-right: 1.4mm; }
+
+/* -------------------------------------------------------------------------- */
+/* Soru bankası                                                               */
+/* -------------------------------------------------------------------------- */
+.qbank ol.questions { padding-left: 7mm; }
+.qbank ol.questions > li { margin-bottom: 2.6mm; break-inside: avoid; }
+.qbank .opts { list-style: upper-alpha; padding-left: 6mm; margin-top: 0.8mm; }
+.answers { font-family: "BookSans"; font-size: 8.9pt; line-height: 1.34; }
+.answers p { margin-bottom: 1.6mm; }
+
+/* Yardımcı */
+.small { font-size: 8.6pt; }
+.center { text-align: center; }
+.nobreak { break-inside: avoid; }
+.pagebreak { break-before: page; }
+code { font-family: "DejaVu Sans Mono"; font-size: 8.4pt; }
+blockquote { margin: 2mm 0 3mm 0; padding: 1mm 0 1mm 4mm; border-left: 1pt solid #cfd8dc; color: #3a464d; font-style: italic; }
+
+/* PDF yer imleri */
+.cover h1, .titlepage *, h3, h4, h5, h6 { bookmark-level: none; }
+section.part h1.ptitle { bookmark-level: 1; bookmark-label: attr(data-bm); }
+.front h1, nav.toc h1 { bookmark-level: 1; }
+header.chopen h1 { bookmark-level: 2; bookmark-label: attr(data-bm); }
+h2 { bookmark-level: 3; }
+section.backmatter header.chopen h1 { bookmark-level: 1; }
