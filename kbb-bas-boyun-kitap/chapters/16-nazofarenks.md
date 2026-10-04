@@ -97,6 +97,23 @@ Tablo: Nazofarenks karsinomunda dönüm noktası çalışmalar
 !!! kilavuz "NCCN — lokobölgesel ileri NFK"
     **İndüksiyon gemsitabin–sisplatin (3 kür) ardından eş zamanlı sisplatin-radyoterapi**, en güçlü kanıta sahip (kategori 1, tercih edilen) yaklaşımdır. Alternatifler: TPF indüksiyonu + KRT veya KRT + adjuvan kemoterapi (kapesitabin veya PF). Sisplatin kümülatif dozu **≥200 mg/m²** hedeflenir.
 
+```dot
+// caption: Nazofarenks karsinomunda tedavi yaklaşımı (TNM-9 evrelerine göre özet)
+digraph G {
+  rankdir=TB; nodesep=0.25;
+  A [label="Biyopsiyle kanıtlanmış NFK:\nMR + PET-BT + plazma EBV DNA", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="T1N0\n(TNM-9 IA)"];
+  C [label="T1N1 veya T2N0–N1\n(TNM-9 IA–IB)"];
+  D [label="Lokobölgesel ileri\n(TNM-9 II–III)"];
+  E [label="Metastatik\n(TNM-9 IVA–IVB)"];
+  B1 [label="Tek başına IMRT", fillcolor="#eaf6ee", color="#2d8a4e"];
+  C1 [label="IMRT ± eş zamanlı sisplatin\n(olumsuz özelliklerde KRT)"];
+  D1 [label="İndüksiyon GP (3 kür) →\neş zamanlı sisplatin-RT\n(alternatif: TPF indüksiyonu veya\nKRT + adjuvan kapesitabin)", fillcolor="#fff3e8", color="#e36414"];
+  E1 [label="GP + PD-1 inhibitörü;\noligometastazda (M1a)\nlokal tedaviler", fillcolor="#fdeeee", color="#c0392b"];
+  A -> B; A -> C; A -> D; A -> E; B -> B1; C -> C1; D -> D1; E -> E1;
+}
+```
+
 ### Nüks ve metastatik hastalık
 
 - **Lokal nüks:** Küçük ve rezeke edilebilir nükslerde (rT1–rT3 seçilmiş) **endoskopik nazofarenjektomi**; randomize çalışmada (Liu, Lancet Oncol 2021) rezeke edilebilir lokal nükste endoskopik cerrahi, IMRT ile reirradyasyona göre daha iyi genel sağkalım ve daha az toksisite sağlamıştır. Diğerlerinde reirradyasyon (IMRT, proton, brakiterapi, SBRT).

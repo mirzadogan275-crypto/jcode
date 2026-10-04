@@ -57,6 +57,23 @@ Tablo: Rezeke edilmiş BBSHK'da adjuvan tedavi endikasyonları
 | Orta (ara) risk | pT3–T4, pN2–N3 (veya birden fazla pozitif nod), seviye IV–V nodları (ağız boşluğu, orofarenks), **perinöral invazyon**, **lenfovasküler invazyon**, yakın sınır | **Radyoterapi** (60 Gy); seçilmiş olgularda kemoterapi eklenmesi değerlendirilebilir |
 | Düşük risk | pT1–T2 N0, temiz sınır, olumsuz özellik yok | İzlem |
 
+```dot
+// caption: Rezeke edilmiş BBSHK'da adjuvan tedavi kararı (özet)
+digraph G {
+  rankdir=TB; nodesep=0.28;
+  A [label="Rezeke edilmiş BBSHK\n(patoloji: sınır, ENE, pT/pN, PNİ, LVİ)", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="ENE ve/veya\npozitif sınır?", shape=diamond, style="filled", fillcolor="#fff3e8", color="#e36414"];
+  C [label="Sisplatine\nuygun mu?", shape=diamond, style="filled", fillcolor="#fff3e8", color="#e36414"];
+  D [label="Eş zamanlı sisplatin + RT (60–66 Gy)\n100 mg/m² ×3 veya haftalık 40 mg/m²\n(NIVOPOSTOP: + nivolumab)", fillcolor="#fdeeee", color="#c0392b"];
+  E [label="Tek başına RT veya\nalternatif (ör. haftalık\ndosetaksel + RT)"];
+  F [label="Ara risk özelliği?\n(pT3–T4, pN2–N3, PNİ, LVİ,\nyakın sınır, seviye IV–V)", shape=diamond, style="filled", fillcolor="#fff3e8", color="#e36414"];
+  G [label="Postoperatif RT\n(60 Gy)"];
+  H [label="İzlem", fillcolor="#eaf6ee", color="#2d8a4e"];
+  A -> B; B -> C [label=" evet"]; C -> D [label=" evet"]; C -> E [label=" hayır"];
+  B -> F [label=" hayır"]; F -> G [label=" evet"]; F -> H [label=" hayır"];
+}
+```
+
 **Kanıt:** **EORTC 22931** (Bernier, NEJM 2004) ve **RTOG 9501** (Cooper, NEJM 2004) çalışmaları, postoperatif radyoterapiye üç haftada bir **100 mg/m² sisplatin** eklenmesinin lokobölgesel kontrolü (her iki çalışma) ve genel sağkalımı (EORTC) artırdığını göstermiştir. İki çalışmanın ortak analizinde (Bernier ve Cooper, Head Neck 2005) faydanın **ENE ve/veya pozitif sınırı** olan hastalarda yoğunlaştığı belirlenmiştir; RTOG 9501'in uzun dönem güncellemesi de bu bulguyu desteklemiştir.
 
 !!! sinav "Sınav notu — sisplatin şeması"

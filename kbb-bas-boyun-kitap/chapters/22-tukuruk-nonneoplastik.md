@@ -62,6 +62,23 @@ Tablo: Sialolitiyazisde girişimsel tedavi seçenekleri
 | Kombine endoskopik–transfasiyal yaklaşım | Büyük parotis taşları |
 | **Submandibular bez eksizyonu** | Bez koruyucu yöntemlerin başarısız olduğu veya uygulanamadığı olgular (son seçenek) |
 
+```dot
+// caption: Sialolitiyazisde tedavi seçimi (özet)
+digraph G {
+  rankdir=TB; nodesep=0.28;
+  A [label="Semptomatik tükürük bezi taşı\n(USG / BT ile yer ve boyut)", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="Konservatif tedavi: hidrasyon, sialogog,\nmasaj, sıcak; enfeksiyonda antibiyotik"];
+  C [label="Distal (ön) submandibular kanal,\npalpe edilen taş"];
+  D [label="Küçük, hareketli taş\n(SMG ≈≤4–5 mm, parotis ≈≤3–4 mm)"];
+  E [label="Büyük veya sabit taş"];
+  C1 [label="Transoral sialodokotomi", fillcolor="#eaf6ee", color="#2d8a4e"];
+  D1 [label="Sialendoskopi\n(sepet / forseps)", fillcolor="#eaf6ee", color="#2d8a4e"];
+  E1 [label="Lazer litotripsi veya\nSMG hiler: sialendoskopi yardımlı transoral\nparotis: kombine endoskopik–transfasiyal"];
+  F [label="Bez koruyucu yöntemler başarısız →\nsubmandibular bez eksizyonu (son seçenek)", fillcolor="#fdeeee", color="#c0392b"];
+  A -> B; B -> C; B -> D; B -> E; C -> C1; D -> D1; E -> E1; E1 -> F [style=dashed];
+}
+```
+
 Taş çıkarıldıktan sonra bez fonksiyonu sıklıkla düzelir; bu nedenle **bezin korunması** hedeflenir.
 
 - **Duktal stenoz/striktür:** Parotiste daha sık; kronik enflamasyon, RAI ve travma sonrası. Sialendoskopik **balon dilatasyonu** ve stent.

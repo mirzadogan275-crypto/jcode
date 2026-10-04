@@ -105,6 +105,23 @@ Ateş, boyun ağrısı ve şişliği, odinofaji, disfaji, salya akması, **trism
 4. **Kaynağın tedavisi:** Diş çekimi, tonsillektomi (gerektiğinde), yabancı cismin çıkarılması.
 5. Kortikosteroidlerin rolü tartışmalıdır; havayolu ödeminde kısa süreli kullanılabilir.
 
+```dot
+// caption: Derin boyun enfeksiyonunda yönetim algoritması
+digraph G {
+  rankdir=TB; nodesep=0.3;
+  A [label="Derin boyun enfeksiyonu şüphesi\n(ateş, ağrı, trismus, disfaji, boyun şişliği)", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="Havayolu güvende mi?", shape=diamond, style="filled", fillcolor="#fff3e8", color="#e36414"];
+  C [label="Uyanık fiberoptik entübasyon\nveya lokal anestezi altında\nuyanık trakeotomi", fillcolor="#fdeeee", color="#c0392b"];
+  D [label="Kontrastlı boyun BT (± toraks BT)\n+ kültür + ampirik IV antibiyotik"];
+  E [label="Flegmon / küçük apse\n(çocukta ≈<2–2,5 cm RF/PF apse)"];
+  F [label="Olgun apse, sepsis veya komplikasyon\n(mediastinit, damar tutulumu)"];
+  G [label="IV antibiyotik + yakın izlem\n(48–72 saat)"];
+  H [label="Cerrahi drenaj (transoral / transservikal\n± torasik) + kaynağın tedavisi", fillcolor="#eaf6ee", color="#2d8a4e"];
+  A -> B; B -> C [label=" hayır"]; B -> D [label=" evet"]; C -> D;
+  D -> E; D -> F; E -> G; G -> H [label=" yanıtsızlık"]; F -> H;
+}
+```
+
 Tablo: Derin boyun boşluklarına göre klinik ve cerrahi yaklaşım
 | Boşluk | Tipik kaynak | Klinik ipuçları | Drenaj yolu |
 |---|---|---|---|

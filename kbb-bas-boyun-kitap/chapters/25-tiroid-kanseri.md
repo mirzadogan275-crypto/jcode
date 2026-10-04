@@ -124,6 +124,27 @@ Tablo: Total tiroidektomi + RAI sonrası tedaviye yanıt kategorileri
 
 Lobektomi veya RAI'siz total tiroidektomi sonrası Tg eşikleri farklı yorumlanır. **TgAb**, Tg immünoassaylerini etkileyerek **yanlış düşük Tg** sonucuna yol açar; bu hastalarda TgAb düzeyinin seyri vekil belirteç olarak izlenir.
 
+```dot
+// caption: ATA 2025'e göre diferansiye tiroid kanserinde cerrahi kapsam ve RAI kararı (özet)
+digraph G {
+  rankdir=TB; nodesep=0.22; ranksep=0.3;
+  A [label="Bethesda V–VI nodül\n+ ameliyat öncesi boyun USG'si", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="cT1aN0M0\n(≤1 cm)"];
+  C [label="<2 cm,\ncN0, ETE yok"];
+  D [label="2–4 cm,\ndüşük risk"];
+  E [label=">4 cm, makroskobik\nETE, cN1 veya cM1"];
+  B1 [label="Aktif izlem /\nperkütan ablasyon\nveya lobektomi", fillcolor="#eaf6ee", color="#2d8a4e"];
+  C1 [label="Lobektomi\n(birinci tercih)", fillcolor="#eaf6ee", color="#2d8a4e"];
+  D1 [label="Lobektomi veya\ntotal tiroidektomi"];
+  E1 [label="Total tiroidektomi +\nterapötik nod diseksiyonu", fillcolor="#fdeeee", color="#c0392b"];
+  F [label="Patoloji → 2025 ATA risk sınıfı\n(lobektomi sonrası yüksek risk:\ntamamlayıcı tiroidektomi sunulabilir)"];
+  G [label="Total tiroidektomi sonrası RAI: düşük risk → rutin değil;\ndüşük-orta / orta-yüksek → düşünülebilir;\nyüksek risk ve M1 → rutin", fillcolor="#fff3e8", color="#e36414"];
+  A -> B; A -> C; A -> D; A -> E;
+  B -> B1; C -> C1; D -> D1; E -> E1;
+  C1 -> F; D1 -> F; E1 -> F; F -> G;
+}
+```
+
 ## Radyoaktif iyot (RAI) tedavisi
 
 Tablo: ATA 2025 — total tiroidektomi sonrası RAI önerileri

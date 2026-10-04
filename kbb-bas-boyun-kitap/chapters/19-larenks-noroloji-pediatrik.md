@@ -54,6 +54,22 @@ Tablo: Tek taraflı vokal kord paralizisinde tedavi seçenekleri
 | **Aritenoid addüksiyonu** (Isshiki, 1978) | Muskuler çıkıntıya konan sütürle LCA çekişinin taklidi; **geniş posterior glottik aralık** ve **kord seviye farkını** düzeltir; tiroplastiyle birlikte |
 | **Larengeal reinnervasyon** | **Ansa servikalis–RLS anastomozu**: kas tonusu ve kitlesini korur (hareket kazandırmaz); **genç hastalarda** tercih edilir (Paniello'nun randomize çalışmasında <52 yaşta reinnervasyon, >52 yaşta tiroplasti daha iyi sonuç vermiştir) |
 
+```dot
+// caption: Tek taraflı vokal kord paralizisinde değerlendirme ve tedavi (özet)
+digraph G {
+  rankdir=TB; nodesep=0.3;
+  A [label="Tek taraflı vokal kord hareketsizliği\n(laringoskopi, videostroboskopi)", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="Neden belirgin değilse: kafa tabanından üst mediastene\nkontrastlı BT ± larengeal EMG (paralizi–fiksasyon\nayrımı ve prognoz) ± FEES"];
+  C [label="Belirgin aspirasyon veya ciddi disfoni\n→ erken geçici enjeksiyon laringoplastisi"];
+  D [label="6–12 ay izlem\n(sinir kesilmemişse spontan düzelme olasılığı)"];
+  E [label="Düzelme yok → kalıcı tedavi"];
+  F [label="Medializasyon tiroplastisi\n± aritenoid addüksiyonu", fillcolor="#eaf6ee", color="#2d8a4e"];
+  G [label="Genç hasta: ansa servikalis–\nRLS reinnervasyonu", fillcolor="#eaf6ee", color="#2d8a4e"];
+  H [label="Uzun etkili enjeksiyon\n(kalsiyum hidroksilapatit, yağ)", fillcolor="#eaf6ee", color="#2d8a4e"];
+  A -> B; B -> C; B -> D; C -> D; D -> E; E -> F; E -> G; E -> H;
+}
+```
+
 Tablo: Isshiki tiroplasti sınıflaması
 | Tip | İşlem | Amaç |
 |---|---|---|

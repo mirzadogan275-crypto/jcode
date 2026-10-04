@@ -107,6 +107,22 @@ N kategorisi ve evre grupları ağız boşluğu, larenks ve hipofarenks ile orta
 - **Lokal ileri evre:** **Sisplatinli eş zamanlı kemoradyoterapi** (70 Gy) veya seçilmiş hastalarda transoral cerrahi + risk temelli adjuvan (kemo)radyoterapi. İndüksiyon kemoterapisi seçilmiş olgularda (iri N3, organ koruma) kullanılabilir.
 - HPV ilişkisiz orofarenks kanseri diğer BBSHK'lar gibi tedavi edilir; KEYNOTE-689'a p16 negatif OPC dahil edilmiştir (perioperatif pembrolizumab seçeneği; Bölüm 10).
 
+```dot
+// caption: Orofarenks kanserinde tedavi yaklaşımı (özet)
+digraph G {
+  rankdir=TB; nodesep=0.3;
+  A [label="Orofarenks SHK: biyopsi + p16 / HPV özgül test,\nMR veya BT, PET-BT, sigara öyküsü", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="Erken evre\n(T1–T2, N0–N1)"];
+  C [label="Lokal ileri evre"];
+  B1 [label="Tek modalite: TORS/TLM + BD\nveya definitif RT (70 Gy)", fillcolor="#eaf6ee", color="#2d8a4e"];
+  B2 [label="Cerrahi sonrası patoloji →\nrisk temelli adjuvan (kemo)RT"];
+  C1 [label="Eş zamanlı sisplatin-RT (70 Gy)\n(seçilmiş hastada cerrahi +\nrisk temelli adjuvan tedavi)", fillcolor="#fff3e8", color="#e36414"];
+  C2 [label="p16−: diğer BBSHK gibi;\nrezektabl evre III–IVA'da\nperioperatif pembrolizumab seçeneği"];
+  D [label="De-eskalasyon yalnızca klinik çalışmada\n(RTOG 1016, De-ESCALaTE, NRG-HN005)", fillcolor="#fdeeee", color="#c0392b"];
+  A -> B; A -> C; B -> B1; B1 -> B2 [label=" cerrahi"]; C -> C1; C -> C2; C1 -> D [style=dashed];
+}
+```
+
 !!! dikkat "Tuzak — de-eskalasyon henüz standart değildir"
     HPV ilişkili OPC'nin iyi prognozu, tedavi yoğunluğunu azaltma (de-eskalasyon) çalışmalarını doğurmuştur. Ancak **setuksimab ile sisplatinin yer değiştirmesi** (RTOG 1016, De-ESCALaTE) ve **radyoterapi dozunun 60 Gy'e indirilmesi** (NRG-HN005) standart tedaviden **daha kötü** sonuç vermiştir. **Klinik çalışma dışında** lokal ileri HPV+ OPC'nin standart tedavisi **70 Gy + sisplatin** ya da uygun hastada cerrahi + endikasyona göre adjuvan tedavidir.
 

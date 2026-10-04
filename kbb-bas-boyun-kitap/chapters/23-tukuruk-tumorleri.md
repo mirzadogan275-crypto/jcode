@@ -52,6 +52,23 @@ Tablo: Milan Tükürük Bezi Sitopatolojisi Raporlama Sistemi — 2. baskı (202
 | **V.** Malignite şüphesi | ≈%83 | Cerrahi |
 | **VI.** Malign | ≈%98 | Cerrahi (mümkünse düşük/yüksek derece belirtilir) |
 
+```dot
+// caption: Parotis kitlesine yaklaşım (özet algoritma)
+digraph G {
+  rankdir=TB; nodesep=0.28;
+  A [label="Parotis kitlesi", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="Öykü ve muayene: fasiyal sinir işlevi, ağrı, fiksasyon,\nboyun nodları, cilt kanseri öyküsü"];
+  C [label="USG + USG eşliğinde İİAB / kalın iğne biyopsisi\n(Milan 2. baskı); derin lob veya perinöral şüphede MR"];
+  D [label="Milan IVA\n(benign neoplazm)"];
+  E [label="Milan III veya\nIVB (SUMP)"];
+  F [label="Milan V–VI\n(malign)"];
+  D1 [label="Parsiyel yüzeyel parotidektomi /\nekstrakapsüler diseksiyon\n(seçilmiş Warthin'de izlem)", fillcolor="#eaf6ee", color="#2d8a4e"];
+  E1 [label="Tekrar örnekleme veya\ncerrahi + frozen kesit"];
+  F1 [label="Evreleme (MR, gerekirse PET-BT) →\nsinir koruyucu parotidektomi ± BD\n± adjuvan RT", fillcolor="#fdeeee", color="#c0392b"];
+  A -> B; B -> C; C -> D; C -> E; C -> F; D -> D1; E -> E1; F -> F1;
+}
+```
+
 ## DSÖ 2022 sınıflamasının öne çıkan noktaları
 
 - **Yeni benign antiteler:** interkale duktus adenomu, striye duktus adenomu, **sklerozan polikistik adenom** (artık neoplazm), keratokistom.

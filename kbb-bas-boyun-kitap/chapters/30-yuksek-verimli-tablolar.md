@@ -130,7 +130,7 @@ Tablo: Baş-boyun cerrahisinde sık sorulan sınıflamalar
 | **Radkowski / UPMC** | Juvenil nazofarengeal anjiyofibrom | Kafa tabanı/intrakraniyal yayılım; UPMC'de İKA beslenmesi ve rezidü vaskülarite | 16 |
 | **Derkay** | Rekürren respiratuvar papillomatozis | Anatomik + fonksiyonel skor | 18 |
 | **Lugano** | Lenfoma evrelemesi | I tek bölge/IE; II diyaframın aynı tarafı; III iki taraf; IV komşu olmayan ekstranodal | 28 |
-| **BWH** | kSKH | Çap ≥2 cm, kötü diferansiyasyon, PNI ≥0,1 mm, yağın ötesi: T2a 1, T2b 2–3, T3 ≥4 etmen/kemik | 28 |
+| **BWH** | kSKH | Çap ≥2 cm, kötü diferansiyasyon, PNİ ≥0,1 mm, yağın ötesi: T2a 1, T2b 2–3, T3 ≥4 etmen/kemik | 28 |
 
 ## Evreleme hızlı bakış
 
@@ -253,7 +253,7 @@ Tablo: Sınavda sık sorulan sayısal değerler
 | PHPT cerrahi ölçütleri (2022) | Ca > ÜNS + **1 mg/dL**; T skoru **≤ −2,5**; eGFR **<60**; idrar Ca **>250 (K)/>300 (E) mg/gün**; **yaş <50** | 27 |
 | FHH | Ca/Cr klirens oranı **<0,01** → cerrahi yok | 27 |
 | Şilöz fistül | **%1–2,5**, çoğunlukla solda | 6 |
-| kSKH | Nakilde risk **65–250 kat**; yüksek risk >2 cm, derinlik >6 mm, PNI ≥0,1 mm | 28 |
+| kSKH | Nakilde risk **65–250 kat**; yüksek risk >2 cm, derinlik >6 mm, PNİ ≥0,1 mm | 28 |
 | Melanom | T1a **<0,8 mm**; sınır: in situ 0,5–1, ≤1 mm 1 cm, 1–2 mm 1–2 cm, >2 mm **2 cm** | 28 |
 | Merkel | Okült nodal metastaz **≈%25–30** → SLNB herkese | 28 |
 | Ekstramedüller plazmasitom | **≈%80 baş-boyun**; RT 40–50 Gy | 28 |

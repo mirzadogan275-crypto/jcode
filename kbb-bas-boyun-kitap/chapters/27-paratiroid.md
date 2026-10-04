@@ -79,6 +79,22 @@ Tablo: Paratiroid lokalizasyon yöntemleri
 
 **USG ve sestamibi uyumluysa** hasta **odaklanmış (minimal invaziv) paratiroidektomi** için uygun adaydır.
 
+```dot
+// caption: Primer hiperparatiroidide tanı, lokalizasyon ve cerrahi yaklaşım
+digraph G {
+  rankdir=TB; nodesep=0.28;
+  A [label="Hiperkalsemi +\nyüksek / uygunsuz normal PTH", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="24 saatlik idrar Ca\n(Ca/Cr klirens oranı), D vitamini,\neGFR, DXA, böbrek USG"];
+  C [label="Ca/Cr klirens oranı <0,01\n→ FHH: cerrahi yok", fillcolor="#fdeeee", color="#c0392b"];
+  D [label="Semptomatik hasta veya\n2022 cerrahi ölçütlerinden ≥1"];
+  E [label="Boyun USG + sestamibi SPECT/BT"];
+  F [label="Uyumlu tek odak →\nodaklanmış paratiroidektomi\n+ IOPTH (Miami)", fillcolor="#eaf6ee", color="#2d8a4e"];
+  G [label="Uyumsuz / negatif →\n4D-BT veya florokolin PET/BT"];
+  H [label="Lokalize edilemeyen /\nçoklu bez şüphesi →\nbilateral eksplorasyon", fillcolor="#fff3e8", color="#e36414"];
+  A -> B; B -> C; B -> D; D -> E; E -> F; E -> G; G -> F [label=" lokalize"]; G -> H [label=" negatif"];
+}
+```
+
 ## Cerrahi teknikler
 
 ### Bilateral boyun eksplorasyonu ve odaklanmış paratiroidektomi

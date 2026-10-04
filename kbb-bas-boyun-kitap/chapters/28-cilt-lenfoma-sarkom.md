@@ -80,8 +80,8 @@ Tablo: Baş-boyun kSKH — AJCC 8 T sınıflaması
 Alternatif **Brigham and Women's Hospital (BWH)** evrelemesi dört risk etmenini sayar — çap ≥2 cm, kötü diferansiyasyon, ≥0,1 mm sinirde perinöral invazyon, subkutan yağın ötesine invazyon: T1 (0 etmen), **T2a** (1), **T2b** (2–3), **T3** (≥4 etmen veya kemik invazyonu). Nodal metastaz ve hastalığa bağlı ölümlerin büyük çoğunluğu T2b–T3 grubunda toplanır; prognostik ayrımı AJCC 8'den daha iyidir.
 
 !!! sinav "Perinöral invazyon: insidental mi, klinik mi?"
-    - **İnsidental (mikroskopik) PNI:** Yalnızca histolojide saptanır; ≥0,1 mm çaplı sinirde veya dermis altında ise T3'e yükseltir ve adjuvan RT gerekçesidir.
-    - **Klinik/radyolojik PNI:** Yüzde uyuşma, karıncalanma ("formikasyon"), ağrı veya fasiyal güçsüzlük; **MR nörografi** ile sinir boyunca kontrast tutulumu. En sık **V2 (infraorbital sinir)** ve **fasiyal sinir** tutulur; tümör **Meckel boşluğu**, foramen rotundum/ovale ve stilomastoid foramene "atlayan" lezyonlarla ilerleyebilir. Kafa tabanı tutulumu **T4b**'dir; tedavi alanı sinir yolu boyunca kafa tabanına kadar uzatılır.
+    - **İnsidental (mikroskopik) PNİ:** Yalnızca histolojide saptanır; ≥0,1 mm çaplı sinirde veya dermis altında ise T3'e yükseltir ve adjuvan RT gerekçesidir.
+    - **Klinik/radyolojik PNİ:** Yüzde uyuşma, karıncalanma ("formikasyon"), ağrı veya fasiyal güçsüzlük; **MR nörografi** ile sinir boyunca kontrast tutulumu. En sık **V2 (infraorbital sinir)** ve **fasiyal sinir** tutulur; tümör **Meckel boşluğu**, foramen rotundum/ovale ve stilomastoid foramene "atlayan" lezyonlarla ilerleyebilir. Kafa tabanı tutulumu **T4b**'dir; tedavi alanı sinir yolu boyunca kafa tabanına kadar uzatılır.
 
 ### Cerrahi tedavi
 
@@ -124,11 +124,11 @@ Tablo: İleri evre kSKH'de immün kontrol noktası inhibitörleri
 digraph G {
   rankdir=TB; nodesep=0.3;
   A [label="Biyopsiyle kanıtlanmış baş-boyun kSKH", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
-  B [label="Risk değerlendirmesi\n(çap, derinlik, diferansiyasyon, PNI, LVI,\nimmünsupresyon, rekürrens)", shape=box];
+  B [label="Risk değerlendirmesi\n(çap, derinlik, diferansiyasyon, PNİ, LVİ,\nimmünsupresyon, rekürrens)", shape=box];
   C [label="Düşük risk:\n4–6 mm sınırla eksizyon\nveya Mohs", fillcolor="#eaf6ee", color="#2d8a4e"];
-  D [label="Yüksek / çok yüksek risk:\nMohs/PDEMA veya ≥6 mm sınır\n+ boyun–parotis USG, BT/MR\n(klinik PNI → MR nörografi)"];
+  D [label="Yüksek / çok yüksek risk:\nMohs/PDEMA veya ≥6 mm sınır\n+ boyun–parotis USG, BT/MR\n(klinik PNİ → MR nörografi)"];
   E [label="Klinik N+:\nparotidektomi + boyun diseksiyonu"];
-  F [label="Postoperatif RT\n(nodal hastalık, PNI, yakın/pozitif sınır, T3–T4)"];
+  F [label="Postoperatif RT\n(nodal hastalık, PNİ, yakın/pozitif sınır, T3–T4)"];
   G [label="Yüksek riskli rezeke hastalık:\nadjuvan semiplimab (C-POST)", fillcolor="#fff3e8", color="#e36414"];
   H [label="Rezeke edilemeyen / metastatik:\nanti-PD-1 / PD-L1\n(semiplimab, pembrolizumab, kosibelimab)", fillcolor="#fdeeee", color="#c0392b"];
   A -> B; B -> C; B -> D; D -> E [label=" N+"]; D -> F [label=" N0, yüksek riskli\n histoloji"]; E -> F; F -> G; B -> H [label=" ileri hastalık", style=dashed];
@@ -337,7 +337,7 @@ Lenfomayı taklit edebilen diğer antiteler — **Kikuchi–Fujimoto**, **Rosai�
 
 !!! ozet "Kritik noktalar"
     - BHK: en sık burunda; **metastaz çok nadir**; morfeaform/infiltratif ve bazoskuamöz alt tipler yüksek riskli. Düşük riskte **4 mm** sınır; yüksek riskte (baş-boyun, rekürren, agresif histoloji) **Mohs/PDEMA**. İleri hastalıkta **vismodegib/sonidegib**, ardından semiplimab. **Gorlin: PTCH1**, odontojenik keratokist, avuç içi çukurcukları, falks kalsifikasyonu — RT'den kaçın.
-    - kSKH yüksek risk: **>2 cm (>4 cm çok yüksek)**, derinlik **>6 mm**/yağın ötesi, kötü diferansiyasyon, **PNI (≥0,1 mm)**, LVI, kulak/dudak, immünsupresyon (nakilde **65–250 kat** risk). **AJCC 8 (yalnız baş-boyun):** T1 <2, T2 2–<4, **T3 ≥4 cm veya PNI/derin invazyon/minör kemik erozyonu**, T4a kortikal kemik, **T4b kafa tabanı**.
+    - kSKH yüksek risk: **>2 cm (>4 cm çok yüksek)**, derinlik **>6 mm**/yağın ötesi, kötü diferansiyasyon, **PNİ (≥0,1 mm)**, LVİ, kulak/dudak, immünsupresyon (nakilde **65–250 kat** risk). **AJCC 8 (yalnız baş-boyun):** T1 <2, T2 2–<4, **T3 ≥4 cm veya PNİ/derin invazyon/minör kemik erozyonu**, T4a kortikal kemik, **T4b kafa tabanı**.
     - Yüz/saçlı deri/kulak kSKH ve melanomunda ilk istasyon **parotis**; N+ hastada **parotidektomi + boyun diseksiyonu**, ardından **postoperatif RT** (karboplatin eklemenin yararı yok — **TROG 05.01**).
     - kSKH immünoterapisi: **semiplimab, pembrolizumab, kosibelimab (2024)**; **C-POST: adjuvan semiplimab DFS HR 0,32 (FDA Ekim 2025)**; KEYNOTE-630 (pembrolizumab) etkisiz; neoadjuvan semiplimab pCR **%51**.
     - Melanom: **Breslow** en önemli prognostik etmen; T1a **<0,8 mm**. Sınır: in situ 0,5–1 cm, ≤1 mm 1 cm, 1–2 mm 1–2 cm, >2 mm **2 cm**. **SLNB:** T1b'de düşün, **T2+ öner**; baş-boyunda lenfosintigrafi + SPECT/BT.

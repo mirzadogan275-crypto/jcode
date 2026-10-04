@@ -73,6 +73,21 @@ Tablo: Uluslararası Nöral Monitörizasyon Çalışma Grubu (INMSG) standart ba
 - **Sürekli IONM** (vagal elektrotla): Genlikte **>%50 azalma ve latansta >%10 artış** ("kombine olay") yaklaşan hasarı haber verir ve traksiyonun gevşetilmesini sağlar.
 - Randomize çalışmalar ve meta-analizler, IONM'nin tüm hastalarda kalıcı RLS paralizisini anlamlı azalttığını kesin olarak göstermemiştir; ancak **reoperasyon, kanser, Graves ve büyük guatr** gibi yüksek riskli durumlarda sinirin tanımlanmasını kolaylaştırır ve evreli cerrahi kararıyla **bilateral paraliziyi önler**. ATA 2025: IONM özellikle total ve reoperatif kanser cerrahisinde kullanılabilir; **ilk taraftan sonra karşı tarafa geçmeden önce sinir bütünlüğü doğrulanmalıdır**.
 
+```dot
+// caption: Nöromonitörizasyonda sinyal kaybı (LOS) algoritması
+digraph G {
+  rankdir=TB; nodesep=0.3;
+  A [label="İlk tarafta R2 veya V2'de sinyal\n<100 µV (1–2 mA, kuru alan)", fillcolor="#0f4c5c", fontcolor="white", color="#0f4c5c"];
+  B [label="Sorun giderme: bağlantılar, tüp pozisyonu,\nnöromüsküler blokaj, larengeal kasılmanın\npalpasyonu, karşı vagus stimülasyonu"];
+  C [label="Teknik sorun → düzelt,\ncerrahiye devam", fillcolor="#eaf6ee", color="#2d8a4e"];
+  D [label="Gerçek LOS"];
+  E [label="Tip 1 (segmental):\nhasar noktası bulunur\n(çoğunlukla Berry ligamenti)"];
+  F [label="Tip 2 (global):\nhasar noktası yok\n(çoğunlukla traksiyon)"];
+  G [label="Karşı taraf cerrahisini ertele\n(evreli tiroidektomi) +\nameliyat sonrası laringoskopi (L2)", fillcolor="#fff3e8", color="#e36414"];
+  A -> B; B -> C [label=" sorun var"]; B -> D [label=" sorun yok"]; D -> E; D -> F; E -> G; F -> G;
+}
+```
+
 ## Komplikasyonlar
 
 ### RLS hasarı
