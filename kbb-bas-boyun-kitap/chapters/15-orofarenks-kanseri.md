@@ -22,7 +22,7 @@ Tablo: HPV ilişkili ve HPV ilişkisiz orofarenks kanserinin karşılaştırmas�
 | Hasta profili | Daha genç (40–60), erkek, beyaz, sigara içmeyen/az içen, yüksek sosyoekonomik düzey, **oral seks partner sayısı** | Daha yaşlı, yoğun sigara–alkol |
 | Yerleşim | Tonsil, dil kökü | Tüm alt bölgeler |
 | Klinik sunum | **Küçük primer + büyük, sıklıkla kistik nodal metastaz**; sıklıkla boyun kitlesiyle başvuru | Ağrı, disfaji, ülsere primer |
-| Histoloji | Bazaloid, nonkeratinize, keratinize olmayan SHK | Keratinize SHK |
+| Histoloji | Bazaloid, nonkeratinize SHK | Keratinize SHK |
 | Moleküler | TP53 vahşi tip, Rb inaktif, **p16 aşırı ifadesi**, PIK3CA | **TP53 mutasyonu**, CDKN2A kaybı |
 | Alan kanserizasyonu / ikinci primer | Düşük | Yüksek |
 | Tedavi yanıtı ve prognoz | **Belirgin olarak daha iyi** (3 yıllık GS ≈%82; RTOG 0129) | Daha kötü (≈%57) |

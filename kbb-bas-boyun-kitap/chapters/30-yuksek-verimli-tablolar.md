@@ -116,7 +116,7 @@ Tablo: Baş-boyun cerrahisinde sık sorulan sınıflamalar
 | **Biffl** | Künt serebrovasküler yaralanma | I intimal düzensizlik/<%25 daralma; II diseksiyon ≥%25, trombüs, flep; III psödoanevrizma; IV oklüzyon; V transeksiyon | 7 |
 | **Schaefer–Fuhrman** | Larenks travması | 1 gözlem; 2 ± trakeotomi; 3 açık onarım; 4 + stent; 5 larengotrakeal ayrılma — erken onarım (≤24–48 saat) | 7 |
 | **Shamblin** | Karotis cisim tümörü | I lokalize; II kısmi sarma; **III tam sarma** → damar rekonstrüksiyonu, en yüksek sinir defisiti | 8 |
-| **Notani** | Mandibula osteoradyonekrozu | I alveolar kemik; II inferior alveolar kanal düzeyi/altı; **III alt kenar, patolojik kırık, fistül → segmental rezeksiyon + fibula** | 10 |
+| **Notani** | Mandibula osteoradyonekrozu | I alveolar kemik; II mandibular kanalın üstünde sınırlı; **III mandibular kanalın altı, deri fistülü veya patolojik kırık → segmental rezeksiyon + fibula** | 10 |
 | **Brown** | Maksillektomi defekti | Dikey I–VI (III orbita adneksi, orbita korunur; IV ekzantrasyon), yatay a–d | 11 |
 | **Myer–Cotton** | Subglottik stenoz | I %0–50; II %51–70; III %71–99; IV lümen yok | 19 |
 | **Benjamin–Inglis** | Larengeal yarık | I interaritenoid, kordların üstünde; II krikoidin bir kısmı; III krikoidin tamamı; IV torasik trakea | 19 |

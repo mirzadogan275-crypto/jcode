@@ -173,9 +173,9 @@ Işınlanmış kemiğin, iyileşmeden en az 3 ay boyunca açıkta kalmasıdır; 
 Tablo: Mandibula osteoradyonekrozunda Notani sınıflaması
 | Notani | Tanım | Tedavi yaklaşımı |
 |---|---|---|
-| **I** | ORN alveolar kemikle sınırlı (inferior alveolar kanalın üstünde) | Konservatif: hijyen, antibiyotik, yüzeyel debridman |
-| **II** | İnferior alveolar kanal düzeyine veya altına uzanan ORN | Debridman/sekestrektomi; pentoksifilin–tokoferol (± klodronat) |
-| **III** | Mandibula alt kenarına uzanan ORN, **patolojik kırık** veya **orokütanöz fistül** | **Segmental mandibulektomi + vaskülarize serbest flep (fibula)** |
+| **I** | ORN **alveolar kemikle** sınırlı | Konservatif: hijyen, antibiyotik, yüzeyel debridman |
+| **II** | ORN alveolar kemik ve/veya mandibulada **inferior alveolar (mandibular) kanal düzeyinin üstünde** sınırlı | Debridman/sekestrektomi; pentoksifilin–tokoferol (± klodronat) |
+| **III** | ORN **mandibular kanalın altına** uzanır veya **deri (orokütanöz) fistülü** ve/veya **patolojik kırık** vardır | **Segmental mandibulektomi + vaskülarize serbest flep (fibula)** |
 
 !!! dikkat "Tuzak — hiperbarik oksijen"
     Hiperbarik oksijenin ORN'yi önlemedeki rolü tartışmalıdır: Marx'ın (1985) çalışması fayda bildirmiş, ancak daha yeni randomize **HOPON** çalışması, ışınlanmış hastada diş çekimi öncesi profilaktik hiperbarik oksijenin ORN'yi anlamlı azaltmadığını göstermiştir. İlerlemiş ORN'nin kesin tedavisi **rezeksiyon ve vaskülarize kemik flebi** ile rekonstrüksiyondur.

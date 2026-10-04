@@ -36,7 +36,7 @@ Tablo: Baş-boyun SHK risk faktörleri
 **Slaughter (1953)**, karsinojen maruziyetine uğramış tüm ÜADS mukozasının "kanserleşmeye hazır bir alan" olduğunu ileri sürmüştür (**alan kanserizasyonu**). Bu nedenle HPV ilişkisiz BBSHK hastalarında **ikinci primer tümör** riski yüksektir: yıllık **≈%3–5**, yaşam boyu %15–25'e varan oranlar bildirilmiştir. En sık yerleşimler **akciğer, baş-boyun ve özofagustur**.
 
 - **Senkron:** İlk tümörle eş zamanlı veya 6 ay içinde; **metakron:** 6 aydan sonra.
-- **Warren ve Gates ölçütleri (1932):** Her iki tümör de malign olmalı; aralarında normal mukoza bulunmalı (≥2 cm); birinin diğerinin metastazı olma olasılığı dışlanmalı.
+- **Warren ve Gates ölçütleri (1932):** Her iki tümör de malign olmalı; aralarında normal mukoza bulunmalı (sonraki modifikasyonlarda ≥2 cm aralık); birinin diğerinin metastazı olma olasılığı dışlanmalı.
 - Kemoprevansiyon çalışmaları (13-cis retinoik asit, β-karoten) kalıcı fayda göstermemiştir; β-karoten sigara içenlerde akciğer kanseri riskini artırmıştır. En etkili koruma **sigaranın bırakılmasıdır**.
 
 ## Moleküler biyoloji
@@ -90,7 +90,7 @@ Genel tedavi ilkeleri:
 2. Ağız boşluğu T kategorisine **invazyon derinliği (DOI)** eklenmesi (Bölüm 13).
 3. HPV ilişkisiz kanserlerde N kategorisine **ekstranodal yayılımın (ENE)** eklenmesi.
 4. Primeri bilinmeyen metastazda **p16 ve EBV** durumuna göre evreleme (Bölüm 6).
-5. Baş-boyun cilt SHK'sı için ayrı bölüm ve **mukozal melanomda** T1–T2'nin kaldırılması (en düşük T3).
+5. Baş-boyun cilt SHK'sı için ayrı bölüm (**mukozal melanomda** AJCC 7 ile getirilen "en düşük kategori T3" kuralı korunmuştur).
 
 ### HPV ilişkisiz tümörlerde N kategorisi (ağız boşluğu, larenks, hipofarenks, p16− orofarenks)
 
