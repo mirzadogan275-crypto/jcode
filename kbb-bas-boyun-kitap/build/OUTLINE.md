@@ -51,3 +51,9 @@ Arka: back-kaynakca
 - [x] 12–17 yazıldı (Kısım IV tamam)
 - [x] 18–20 yazıldı
 - [x] 21–23 yazıldı (Kısım V tamam, VI tamam)
+- [x] 24–27 yazıldı (Kısım VII tamam)
+- [x] 28–29 yazıldı (Kısım VIII tamam)
+- [x] 30 yüksek verimli tablolar; ön bölümler (kullanım + 7 günlük plan, kaynaklar, kısaltmalar)
+- [x] Soru bankası parçaları: qbank-1 (Bölüm 1–8, 40), qbank-3 (16–23, 40), qbank-4 (24–27, 24), qbank-5 (28–29, 9); qbank-2 (9–15, 37) alt-ajanda
+- [x] 10 algoritma diyagramı eklendi (Bölüm 5, 10, 15, 16, 19, 22, 23, 25, 26, 27); yazı boyutu 10,5 pt
+- [ ] Bölüm 31'i `python3 assemble_qbank.py` ile yeniden üret; back-kaynakca (refs-verified.md'den); tam derleme + QA
