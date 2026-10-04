@@ -50,3 +50,4 @@ Arka: back-kaynakca
 - [x] 06 07 08 09 10 11 yazıldı (Kısım I–III tamam)
 - [x] 12–17 yazıldı (Kısım IV tamam)
 - [x] 18–20 yazıldı
+- [x] 21–23 yazıldı (Kısım V tamam, VI tamam)
