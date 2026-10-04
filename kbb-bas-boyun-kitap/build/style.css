@@ -246,11 +246,18 @@ figure.diagram figcaption .fnum { font-weight: 700; color: #d1495b; margin-right
 /* -------------------------------------------------------------------------- */
 /* Soru bankası                                                               */
 /* -------------------------------------------------------------------------- */
-.qbank ol.questions { padding-left: 7mm; }
-.qbank ol.questions > li { margin-bottom: 2.6mm; break-inside: avoid; }
-.qbank .opts { list-style: upper-alpha; padding-left: 6mm; margin-top: 0.8mm; }
-.answers { font-family: "BookSans"; font-size: 8.9pt; line-height: 1.34; }
-.answers p { margin-bottom: 1.6mm; }
+.qbank ol.questions { padding-left: 8mm; margin: 2mm 0 3mm 0; }
+.qbank ol.questions > li { margin-bottom: 3.2mm; break-inside: avoid; }
+.qbank ol.questions > li::marker { font-family: "BookSans"; font-weight: 700; color: #0f4c5c; }
+.qbank .qstem { margin-bottom: 0.6mm; }
+.qbank .opts { list-style: upper-alpha; padding-left: 6.5mm; margin: 0.6mm 0 0 0; }
+.qbank .opts > li { margin-bottom: 0.3mm; }
+.qbank .opts > li::marker { font-family: "BookSans"; font-weight: 600; color: #5b6770; }
+.answers { font-family: "BookSans"; font-size: 8.9pt; line-height: 1.36; margin: 4mm 0 5mm 0;
+  padding-top: 2.5mm; border-top: 1.2pt solid #0f4c5c; }
+.answers .anshead { margin-top: 0; color: #0f4c5c; }
+.answers p { margin-bottom: 1.7mm; text-align: left; }
+.answers b.akey { color: #d1495b; font-weight: 800; }
 
 /* Yardımcı */
 .small { font-size: 8.6pt; }

@@ -97,7 +97,66 @@ def render_dot(src: str) -> str:
 # ---------------------------------------------------------------------------
 # Markdown ön işleme
 # ---------------------------------------------------------------------------
+QB_OPT = re.compile(r"^([A-E])\)\s+(.+)$")
+
+
+def md_inline(text: str) -> str:
+    out = markdown.markdown(text, extensions=["pymdownx.mark", "pymdownx.caret", "pymdownx.betterem"]).strip()
+    if out.startswith("<p>") and out.endswith("</p>") and out.count("<p>") == 1:
+        out = out[3:-4]
+    return out
+
+
+def render_qbank(body: str, counters: dict) -> str:
+    """```qbank bloğu → numaralı sorular + blok sonunda yanıt/açıklama listesi.
+
+    Soru biçimi (sorular boş satırla ayrılır):
+        S: soru kökü
+        A) … B) … C) … D) … E) …
+        Yanıt: C
+        Açıklama: …
+    """
+    start = counters.get("q", 0) + 1
+    qs, ans = [], []
+    for blk in [b for b in re.split(r"\n\s*\n", body.strip()) if b.strip()]:
+        stem, opts, key, expl = [], [], "", None
+        for line in (ln.strip() for ln in blk.splitlines()):
+            if not line:
+                continue
+            m = QB_OPT.match(line)
+            if line.startswith("S:"):
+                stem.append(line[2:].strip())
+            elif line.startswith("Yanıt:"):
+                key = line.split(":", 1)[1].strip()
+            elif line.startswith("Açıklama:"):
+                expl = line.split(":", 1)[1].strip()
+            elif expl is not None:
+                expl += " " + line
+            elif m and not key:
+                opts.append((m.group(1), m.group(2).strip()))
+            elif opts:
+                opts[-1] = (opts[-1][0], opts[-1][1] + " " + line)
+            else:
+                stem.append(line)
+        letters = "".join(L for L, _ in opts)
+        if letters != "ABCDE" or key not in ("A", "B", "C", "D", "E") or not stem or not expl:
+            raise SystemExit(f"qbank: hatalı soru bloğu:\n{blk}")
+        counters["q"] = counters.get("q", 0) + 1
+        n = counters["q"]
+        qs.append(f'<li><div class="qstem">{md_inline(" ".join(stem))}</div><ol class="opts">'
+                  + "".join(f"<li>{md_inline(t)}</li>" for _, t in opts) + "</ol></li>")
+        ans.append(f'<p><b class="akey">{n}. {key}</b>&#8194;{md_inline(expl)}</p>')
+    end = counters["q"]
+    return (f'\n<div class="qbank"><ol class="questions" start="{start}">{"".join(qs)}</ol></div>\n\n'
+            f'<div class="answers"><h3 class="anshead">Yanıtlar ve açıklamalar · Soru {start}–{end}</h3>'
+            f'{"".join(ans)}</div>\n')
+
+
 def preprocess(md_text: str, chnum, counters: dict) -> str:
+    # ```qbank ... ``` blokları → soru listesi + yanıtlar
+    md_text = re.sub(r"^```qbank\s*\n(.*?)^```\s*$", lambda m: render_qbank(m.group(1), counters),
+                     md_text, flags=re.S | re.M)
+
     # ```dot ... ``` blokları → figür
     def dot_repl(m):
         body = m.group(1)

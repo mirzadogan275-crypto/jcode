@@ -81,7 +81,7 @@ Mandibula defektleri **HCL sınıflaması** (Jewer/Boyd) ile tanımlanır: **H**
 
 ### Maksilla ve damak
 
-Brown sınıflaması dikey (I: oroantral fistül oluşturmayan maksillektomi; II: orbita tabanını korumayan alçak maksillektomi; III: orbita tabanını/adneksi içeren yüksek maksillektomi; IV: orbita ekzantrasyonlu radikal; V: orbitomaksiller; VI: nazomaksiller) ve yatay (a: yalnızca damak; b: ≤yarım tek taraflı; c: ≤yarım transvers/ön alveolu içeren; d: >yarım) bileşenleri tanımlar.
+Brown sınıflaması dikey (I: oroantral fistül oluşturmayan maksillektomi; II: orbitayı içermeyen alçak maksillektomi; III: orbita tabanını/adneksi içeren, orbitanın korunduğu yüksek maksillektomi; IV: orbita enükleasyonu/ekzantrasyonu ile radikal maksillektomi; V: orbitomaksiller; VI: nazomaksiller) ve yatay (a: alveolü içermeyen yalnızca damak defekti; b: ≤yarım tek taraflı; c: ≤yarım iki taraflı veya transvers ön; d: >yarım maksillektomi) bileşenleri tanımlar.
 
 - Sınırlı damak defektleri: **obtüratör protez** (fonksiyonel ve ucuz; tümör yatağının izlenmesini kolaylaştırır), temporal kas veya bukkal yağ yastığı flebi.
 - Geniş ve orbita tabanını içeren defektler: **skapula ucu**, fibula veya DCIA ile vaskülarize kemik; orbita içeriğinin desteklenmesi enoftalmi ve diplopiyi önler.
