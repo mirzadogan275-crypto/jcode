@@ -48,3 +48,5 @@ Arka: back-kaynakca
 (yazılan bölümler burada işaretlenir)
 - [x] 01 02 03 04 05 yazıldı (≈3.3–4k kelime/bölüm)
 - [x] 06 07 08 09 10 11 yazıldı (Kısım I–III tamam)
+- [x] 12–17 yazıldı (Kısım IV tamam)
+- [x] 18–20 yazıldı
