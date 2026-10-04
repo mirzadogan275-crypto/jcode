@@ -39,7 +39,7 @@ Sinirler, embriyonik dönemde kendi arklarının arterlerinin altından geçer. 
 **Nonrekürren larengeal sinir:** Sağ subklavyen arter, 4. ark yerine sağ dorsal aortanın distalinden (aort arkının son dalı olarak, özofagusun arkasından geçen **arteria lusoria**) geliştiğinde, sağ larengeal sinirin "dönebileceği" bir damar kalmaz ve sinir vagustan doğrudan larenkse gider. Sıklığı sağda yaklaşık **%0,3–0,8**'dir. Solda nonrekürren sinir, ancak situs inversus veya sağ aort arkı ile birlikte ve son derece nadir görülür.
 
 !!! klinik "Klinik inci"
-    Tiroidektomi öncesi BT'de **retroözofageal sağ subklavyen arter** görülmesi, sağda nonrekürren sinir için güçlü bir uyarıdır. Nöromonitörizasyonda vagus stimülasyonunun tiroid alt kutbu düzeyinin *üzerinde* yapılması, sinyal kaybı yaşanmadan nonrekürren siniri ortaya koyabilir (ayrıntı: Bölüm 26).
+    Tiroidektomi öncesi BT'de **retroözofageal sağ subklavyen arter** görülmesi, sağda nonrekürren sinir için güçlü bir uyarıdır. Nöromonitörizasyonda vagus, tiroid alt kutbu/inferior tiroid arter düzeyinin **altında** uyarıldığında yanıt alınamıyor, bu düzeyin **üzerinde** uyarıldığında yanıt alınıyorsa **nonrekürren sinir** düşünülmelidir; bu nedenle diseksiyondan önce vagusun düşük düzeyden uyarılması (V1) anomaliyi erkenden ortaya koyar (ayrıntı: Bölüm 26).
 
 ## Faringeal keseler ve türevleri
 
@@ -127,7 +127,7 @@ Tablo: Dilin innervasyonu
 Tiroid, gelişen ilk endokrin bezdir. Yaklaşık **24. günde** farenks tabanında, tuberkulum impar ile kopula arasında (foramen çekum düzeyinde) endodermal bir kalınlaşma olarak başlar. Tiroid divertikülü, dil kökünden aşağı doğru, hiyoid kemiğin ve larenks kıkırdaklarının **önünden** geçerek iner; bu iniş sırasında dile **tiroglossal kanal** ile bağlı kalır. Bez **7. haftada** trakeanın önündeki son konumuna ulaşır ve tiroglossal kanal normalde 7.–10. haftalarda kaybolur. Folikül oluşumu ve kolloid birikimi 10.–12. haftalarda başlar.
 
 - Kanalın kaudal ucunun kalıcı olması **piramidal lobu** (erişkinlerin yaklaşık %30–50'si) oluşturur.
-- Kanalın herhangi bir noktada kalıcı olması **tiroglossal kanal kistine** neden olur. Kanal hiyoid kemiğin önünden ya da içinden geçtiği için cerrahide hiyoidin orta bölümü çıkarılır (**Sistrunk ameliyatı**).
+- Kanalın herhangi bir noktada kalıcı olması **tiroglossal kanal kistine** neden olur. Kanal hiyoid kemiğin önünden, içinden veya arkasından geçebildiği için cerrahide hiyoidin orta bölümü çıkarılır (**Sistrunk ameliyatı**).
 - Tiroid gelişiminde rol oynayan transkripsiyon faktörleri: **NKX2-1 (TTF-1)**, **PAX8**, **FOXE1 (TTF-2)** ve **HHEX**. Bu genlerdeki mutasyonlar tiroid disgenezisine (agenezi, hipoplazi, ektopi) yol açar. TTF-1 ve PAX8, patolojide tiroid kökenini doğrulamak için kullanılan immünohistokimyasal belirteçlerdir.
 
 **Lateral tiroid taslağı:** Dördüncü (ve rudimenter beşinci) keseden gelişen **ultimobrankiyal cisim**, lateral lobların arka-üst kısmında medial taslakla birleşir ve **C hücrelerini** taşır. Bu nedenle:

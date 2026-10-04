@@ -38,7 +38,7 @@ Hiyalin kıkırdaklar (tiroid, krikoid, aritenoid) **20'li yaşlardan itibaren d
 - **Subglottis:** Glottisin alt sınırından krikoidin alt kenarına.
 
 !!! sinav "Sınav notu — embriyolojik kompartmanlar"
-    Supraglottis **bukkofarengeal** (3.–4. arklar), glottis ve subglottis **trakeobronşiyal** (6. ark) taslaktan gelişir. Bu nedenle supraglottisin zengin ve bilateral lenfatik ağı glottik bölgeden ayrıdır; **supraglottik larenjektominin** onkolojik mantığı bu ayrıma dayanır. Gerçek vokal kordlarda lenfatik çok azdır — erken glottik kanser nadiren metastaz yapar.
+    Supraglottis **bukkofarengeal** (3.–4. arklar), glottis ve subglottis **trakeobronşiyal** (4.–6. arklar) taslaktan gelişir. Bu nedenle supraglottisin zengin ve bilateral lenfatik ağı glottik bölgeden ayrıdır; **supraglottik larenjektominin** onkolojik mantığı bu ayrıma dayanır. Gerçek vokal kordlarda lenfatik çok azdır — erken glottik kanser nadiren metastaz yapar.
 
 ### Kaslar
 

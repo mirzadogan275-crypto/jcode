@@ -154,7 +154,7 @@ Vagus, karotis kılıfı içinde arterler ile IJV arasında ve bunların **arkas
 
 ### Sempatik zincir
 
-Karotis kılıfının arkasında, prevertebral fasyanın içinde/üzerinde longus colli/capitis kasları üzerinde yer alır. **Süperior servikal ganglion** C2–C3 düzeyindedir. Hasarı **Horner sendromuna** (pitoz, miyozis, anhidroz, görünürde enoftalmi) yol açar. Sempatik zincir kaynaklı schwannomlar karotisleri **öne ve mediale**, vagal schwannomlar ise İKA ile IJV'yi **ayırarak** iter (Bölüm 8).
+Karotis kılıfının arkasında, prevertebral fasyanın içinde/üzerinde longus colli/capitis kasları üzerinde yer alır. **Süperior servikal ganglion** C2–C3 düzeyindedir. Hasarı **Horner sendromuna** (pitoz, miyozis, anhidroz, görünürde enoftalmi) yol açar. Sempatik zincir kaynaklı schwannomlar İKA ve IJV'yi **birlikte, ayırmadan öne/anterolaterale**, vagal schwannomlar ise İKA ile IJV'yi **ayırarak** iter (Bölüm 8).
 
 ### Frenik sinir ve brakiyal pleksus
 

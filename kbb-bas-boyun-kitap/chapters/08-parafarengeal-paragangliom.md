@@ -62,7 +62,7 @@ Tablo: Parafarengeal boşluğa cerrahi yaklaşımlar
 
 Paragangliomlar, otonom sinir sistemine eşlik eden **nöral krista kökenli** paraganglionlardan gelişen nöroendokrin tümörlerdir. Baş-boyun paragangliomları çoğunlukla **parasempatik** kökenlidir ve büyük kısmı **katekolamin salgılamaz** (<%5; salgılayanlar genellikle **dopamin** üretir). Yine de tüm hastalarda ameliyat öncesi **plazma serbest metanefrinleri (ve 3-metoksitiramin)** ölçülmelidir; salgılayan tümörde α-blokaj olmadan cerrahi hipertansif krize yol açabilir.
 
-- **Yerleşim sıklığı:** **Karotis cisim tümörü** (baş-boyun paragangliomlarının en sığı, ≈%60), juguler/timpanik (temporal kemik), **vagal**; nadiren larenks ve diğer bölgeler.
+- **Yerleşim sıklığı:** **Karotis cisim tümörü** (baş-boyun paragangliomlarının en sık görüleni, ≈%60), juguler/timpanik (temporal kemik), **vagal**; nadiren larenks ve diğer bölgeler.
 - **Histoloji:** **"Zellballen"** paterni — kromogranin ve sinaptofizin pozitif **esas (chief) hücreler** ile bunları çevreleyen **S100 pozitif sustentaküler hücreler**.
 - **Malignite** histolojiyle değil, **lenf nodu veya uzak metastaz varlığıyla** tanımlanır. Karotis cisim tümörlerinde metastaz ≈%5 civarındadır; vagal tümörlerde ve **SDHB** mutasyonunda daha yüksektir.
 - Kronik hipoksi (yüksek rakımda yaşam, kronik akciğer hastalığı) karotis cisim hiperplazisi ve tümörü ile ilişkilidir.
@@ -114,7 +114,7 @@ Vagus sinirinin **inferior (nodoz) gangliyonu** düzeyinden köken alır ve post
 - Bilateral tümörlerde **bilateral vagal kayıptan** kesinlikle kaçınılmalıdır.
 
 !!! sinav "Sınav notu — temporal kemik paragangliomları (yalnızca ayırıcı tanı için)"
-    Juguler ve timpanik paragangliomlar (Fisch ve Glasscock–Jackson sınıflamaları) pulsatil tinnitus, iletim tipi işitme kaybı ve kulak zarı arkasında kırmızı kitle (**Brown işareti**, **yükselen güneş** görünümü) ile kendini gösterir ve otoloji kapsamındadır. Sınavda boyun kitlesiyle birlikte **juguler foramen sendromu (Vernet: IX, X, XI)** soruluyorsa juguler/vagal paragangliom akla gelmelidir.
+    Juguler ve timpanik paragangliomlar (Fisch ve Glasscock–Jackson sınıflamaları) pulsatil tinnitus, iletim tipi işitme kaybı ve kulak zarı arkasında kırmızı kitle (**yükselen güneş** görünümü; pnömatik otoskopide pozitif basınçla kitlenin solması — **Brown işareti**) ile kendini gösterir ve otoloji kapsamındadır. Sınavda boyun kitlesiyle birlikte **juguler foramen sendromu (Vernet: IX, X, XI)** soruluyorsa juguler/vagal paragangliom akla gelmelidir.
 
 ## Sinir kılıfı tümörleri
 

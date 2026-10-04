@@ -57,7 +57,7 @@ Tablo: Milan Tükürük Bezi Sitopatolojisi Raporlama Sistemi — 2. baskı (202
 - **Yeni benign antiteler:** interkale duktus adenomu, striye duktus adenomu, **sklerozan polikistik adenom** (artık neoplazm), keratokistom.
 - **Yeni malign antiteler:** **mikrosekretuvar adenokarsinom** (MEF2C-SS18), **sklerozan mikrokistik adenokarsinom**.
 - **Müsinöz adenokarsinom** (AKT1 E17K) alt tipleriyle tanımlanmış; **kribriform adenokarsinom**, **polimorf adenokarsinomun** bir alt tipi olarak kabul edilmiştir.
-- Eski "düşük dereceli kribriform kistadenokarsinom" → **intraduktal karsinom**; "kistadenokarsinom" kaldırılmıştır.
+- **İntraduktal karsinom** (2017 sınıflamasında eski "düşük dereceli kribriform kistadenokarsinom"un yerini almıştı): 2022'de **interkale kanal benzeri, apokrin, onkositik ve mikst** alt tipleri tanımlanmıştır.
 - Tanıda füzyon genleri (MAML2, MYB, NR4A3, ETV6-NTRK3, EWSR1-ATF1, PLAG1/HMGA2) giderek daha fazla kullanılmaktadır.
 
 ## Benign tümörler

@@ -19,7 +19,7 @@ Penetran yaralanma, **platismanın delinmesi** ile tanımlanır. Platismayı ge�
 
 ### Anatomik zonlar
 
-Roon ve Christensen (1979) tarafından tanımlanan üç zon, cerrahi erişim ve görüntüleme gereksinimini anlamak için hâlâ kullanılır.
+Monson ve ark. (1969) tarafından tanımlanıp Roon ve Christensen (1979) tarafından güncellenen üç zon, cerrahi erişim ve görüntüleme gereksinimini anlamak için hâlâ kullanılır.
 
 Tablo: Penetran boyun yaralanmalarında anatomik zonlar
 | Zon | Sınırlar | Başlıca yapılar | Özellik |
@@ -132,7 +132,7 @@ Künt travma, yabancı cisim veya iyatrojenik nedenlerle (endoskopi, zor entüba
 - **Servikal omurga ve medulla spinalis:** Penetran travmada nadir ancak nörolojik defisitle seyreder.
 
 !!! vaka "Vaka"
-    32 yaşında erkek, motosiklet kazası sonrası acil servise ses kısıklığı, ön boyunda hassasiyet ve palpasyonda krepitasyon ile getiriliyor; satürasyon normal. **Yaklaşım:** Havayolu stabil olduğundan fleksibl laringoskopi (sol vokal kordda hareket kısıtlılığı, aritenoid üzerinde hematom, açıkta kıkırdak yok) ve larenks BT'si (deplase olmayan tiroid kıkırdak kırığı) → **Schaefer–Fuhrman grup 2**. Yatırılarak havayolu izlemi, nemlendirme, baş elevasyonu, PPI ve steroid; kötüleşmede trakeotomi. Mekanizma ve krepitasyon nedeniyle **BTA ile künt serebrovasküler yaralanma** taraması ve özofagus değerlendirmesi de yapılmalıdır.
+    32 yaşında erkek, motosiklet kazası sonrası acil servise ses kısıklığı, ön boyunda hassasiyet ve palpasyonda krepitasyon ile getiriliyor; satürasyon normal. **Yaklaşım:** Havayolu stabil olduğundan fleksibl laringoskopi (vokal kord hareketleri korunmuş, sol aritenoid ve ventriküler bantta hematom, açıkta kıkırdak yok) ve larenks BT'si (deplase olmayan tiroid kıkırdak kırığı) → **Schaefer–Fuhrman grup 2**. Yatırılarak havayolu izlemi, nemlendirme, baş elevasyonu, PPI ve steroid; kötüleşmede trakeotomi. Mekanizma ve krepitasyon nedeniyle **BTA ile künt serebrovasküler yaralanma** taraması ve özofagus değerlendirmesi de yapılmalıdır.
 
 !!! ozet "Kritik noktalar"
     - Penetran yaralanma **platismanın delinmesiyle** tanımlanır. Zonlar: **I** klavikula–krikoid, **II** krikoid–mandibula açısı, **III** mandibula açısı–kafa tabanı.

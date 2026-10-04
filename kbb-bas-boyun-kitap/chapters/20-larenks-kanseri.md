@@ -171,7 +171,7 @@ Tablo: Ses protezi sorunları ve çözümleri
 
 - **Verrüköz karsinom:** Çoğunlukla glottiste; nodal metastaz nadir; **TLM/cerrahi eksizyon**.
 - **İğsi hücreli (sarkomatoid) karsinom:** Polipoid kitle.
-- **Nöroendokrin neoplaziler:** İyi diferansiye (tipik karsinoid), **orta derecede diferansiye (atipik karsinoid — larenksin en sık nöroendokrin tümörü**; supraglottis/aritenoid; cerrahi) ve kötü diferansiye (küçük hücreli — sistemik kemoterapi + radyoterapi).
+- **Nöroendokrin neoplaziler (DSÖ 2022 terminolojisi):** İyi diferansiye **nöroendokrin tümörler** — **NET G1** (eski tipik karsinoid), **NET G2** (eski **atipik karsinoid — larenksin en sık nöroendokrin neoplazisi**; supraglottis/aritenoid; cerrahi) ve NET G3 — ile kötü diferansiye **nöroendokrin karsinomlar** (küçük ve büyük hücreli NEC — sistemik kemoterapi + radyoterapi).
 - **Kondrosarkom:** Larenksin **en sık sarkomu**; çoğunlukla **krikoid arka laminasında**, düşük dereceli; fonksiyon koruyucu konservatif cerrahi.
 
 ## Prognoz

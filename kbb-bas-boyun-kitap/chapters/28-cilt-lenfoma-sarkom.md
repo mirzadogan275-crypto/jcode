@@ -4,12 +4,12 @@ Baş-boyun bölgesi, güneşe en çok maruz kalan bölge olarak **keratinosit ka
 
 ## Keratinosit kanserlerine genel bakış
 
-Melanom dışı cilt kanserleri insanda en sık görülen kanserlerdir; ≈%75–80'i **bazal hücreli karsinom (BKH)**, ≈%20'si **kutanöz skuamöz hücreli karsinomdur (kSKH)**. BKH'lerin ≈%80'i baş-boyunda, en sık **burunda** yerleşir. İmmünkompetan bireylerde BKH:kSKH oranı ≈4:1 iken **solid organ nakli** alıcılarında bu oran tersine döner.
+Melanom dışı cilt kanserleri insanda en sık görülen kanserlerdir; ≈%75–80'i **bazal hücreli karsinom (BHK)**, ≈%20'si **kutanöz skuamöz hücreli karsinomdur (kSKH)**. BHK'lerin ≈%80'i baş-boyunda, en sık **burunda** yerleşir. İmmünkompetan bireylerde BHK:kSKH oranı ≈4:1 iken **solid organ nakli** alıcılarında bu oran tersine döner.
 
 Tablo: Keratinosit kanserlerinde risk etmenleri
 | Etmen | Açıklama |
 |---|---|
-| **Ultraviyole (UVB > UVA)**, açık ten (Fitzpatrick I–II) | Kümülatif güneş maruziyeti → kSKH; aralıklı yoğun maruziyet ve çocuklukta güneş yanığı → BKH ve melanom |
+| **Ultraviyole (UVB > UVA)**, açık ten (Fitzpatrick I–II) | Kümülatif güneş maruziyeti → kSKH; aralıklı yoğun maruziyet ve çocuklukta güneş yanığı → BHK ve melanom |
 | **İmmünsupresyon** | Solid organ naklinde kSKH riski **≈65–250 kat** artar; daha agresif seyir. KLL ve HIV de riski artırır |
 | Genetik sendromlar | **Kseroderma pigmentozum** (nükleotid eksizyon onarımı), okülokütanöz albinizm, **Gorlin sendromu** (PTCH1) |
 | Kronik yara ve skar | **Marjolin ülseri** (yanık skarı, kronik ülser) — agresif kSKH |
@@ -17,9 +17,9 @@ Tablo: Keratinosit kanserlerinde risk etmenleri
 
 ## Bazal hücreli karsinom
 
-BKH yavaş büyüyen, lokal olarak destrüktif ama **metastazı son derece nadir** (≈%0,003–0,5) bir tümördür. Hedgehog yolağı aktivasyonu (sıklıkla **PTCH1** fonksiyon kaybı → SMO aktivasyonu) patogenezin merkezindedir. Histolojide **periferik palizatlanma**, stromadan **retraksiyon artefaktı** (yarıklar) ve BerEP4 pozitifliği tipiktir.
+BHK yavaş büyüyen, lokal olarak destrüktif ama **metastazı son derece nadir** (≈%0,003–0,5) bir tümördür. Hedgehog yolağı aktivasyonu (sıklıkla **PTCH1** fonksiyon kaybı → SMO aktivasyonu) patogenezin merkezindedir. Histolojide **periferik palizatlanma**, stromadan **retraksiyon artefaktı** (yarıklar) ve BerEP4 pozitifliği tipiktir.
 
-Tablo: BKH alt tipleri ve biyolojik davranış
+Tablo: BHK alt tipleri ve biyolojik davranış
 | Alt tip | Klinik özellik | Risk |
 |---|---|---|
 | **Nodüler** (≈%50–60) | İnci görünümlü, telenjiektazik papül; santral ülserasyon ("rodent ülser") | Düşük |
@@ -28,20 +28,20 @@ Tablo: BKH alt tipleri ve biyolojik davranış
 | **Bazoskuamöz (metatipik)** | kSKH benzeri davranış, metastaz potansiyeli | **Yüksek** |
 | Pigmente | Melanomla karışabilir | Düşük |
 
-!!! sinav "Gorlin–Goltz (nevoid BKH) sendromu"
-    **PTCH1** (9q22.3) mutasyonu, otozomal dominant. Genç yaşta **çok sayıda BKH**, çenede **odontojenik keratokistler** (Bölüm 12), **avuç içi/ayak tabanı çukurcukları**, **falks serebri kalsifikasyonu**, bifid kaburga, frontal çıkıntı ve medulloblastom (özellikle SUFU). Bu hastalarda **radyoterapiden kaçınılır** (alanda yeni BKH'ler gelişir).
+!!! sinav "Gorlin–Goltz (nevoid BHK) sendromu"
+    **PTCH1** (9q22.3) mutasyonu, otozomal dominant. Genç yaşta **çok sayıda BHK**, çenede **odontojenik keratokistler** (Bölüm 12), **avuç içi/ayak tabanı çukurcukları**, **falks serebri kalsifikasyonu**, bifid kaburga, frontal çıkıntı ve medulloblastom (özellikle SUFU). Bu hastalarda **radyoterapiden kaçınılır** (alanda yeni BHK'ler gelişir).
 
 ### Risk sınıflaması ve tedavi
 
 NCCN sınıflamasında **baş-boyun yerleşimi, boyutundan bağımsız olarak yüksek risk** özelliğidir; ayrıca sınırların belirsizliği, rekürren tümör, immünsupresyon, önceki RT alanı, agresif histolojik alt tip ve **perinöral invazyon** yüksek risk ölçütleridir. Gövde ve ekstremitede <2 cm, sınırları belirgin, primer nodüler/yüzeyel tümörler düşük risklidir.
 
-- **Düşük riskli BKH:** **4 mm** klinik sınırla standart eksizyon (<2 cm, sınırları belirgin tümörlerde ≈%95 temizlik); yüzeyel BKH'de küretaj-elektrodesikasyon, topikal **imikimod/5-FU** veya fotodinamik tedavi.
-- **Yüksek riskli BKH:** **Mohs mikrografik cerrahisi** (tüm periferik ve derin sınırın intraoperatif incelenmesi; doku koruyucu; primer BKH'de kür ≈%99) veya **PDEMA** (periferik ve derin "en face" sınır değerlendirmesi) / frozen kesit eşliğinde eksizyon. Defekt, sınırlar kesinleşmeden lokal fleple kapatılmamalıdır.
+- **Düşük riskli BHK:** **4 mm** klinik sınırla standart eksizyon (<2 cm, sınırları belirgin tümörlerde ≈%95 temizlik); yüzeyel BHK'de küretaj-elektrodesikasyon, topikal **imikimod/5-FU** veya fotodinamik tedavi.
+- **Yüksek riskli BHK:** **Mohs mikrografik cerrahisi** (tüm periferik ve derin sınırın intraoperatif incelenmesi; doku koruyucu; primer BHK'de kür ≈%99) veya **PDEMA** (periferik ve derin "en face" sınır değerlendirmesi) / frozen kesit eşliğinde eksizyon. Defekt, sınırlar kesinleşmeden lokal fleple kapatılmamalıdır.
 - **Radyoterapi:** Cerrahiye uygun olmayan, genellikle >60 yaş hastalarda; genetik sendromlar ve bağ dokusu hastalıklarında kontrendikedir.
-- **Lokal ileri/metastatik BKH:** **Hedgehog yolağı inhibitörleri** (SMO inhibitörleri **vismodegib, sonidegib**) — yan etkiler: kas krampları, tat bozukluğu, alopesi, kilo kaybı; teratojenik. Hedgehog inhibitörüne yanıtsız veya intoleran hastada **semiplimab** (anti-PD-1).
+- **Lokal ileri/metastatik BHK:** **Hedgehog yolağı inhibitörleri** (SMO inhibitörleri **vismodegib, sonidegib**) — yan etkiler: kas krampları, tat bozukluğu, alopesi, kilo kaybı; teratojenik. Hedgehog inhibitörüne yanıtsız veya intoleran hastada **semiplimab** (anti-PD-1).
 
 !!! klinik "Klinik inci — yüzde 'H bölgesi' ve embriyonik kaynaşma hatları"
-    Burun kanadı, nazolabial oluk, iç kantus, periaurikuler bölge ve kulak kepçesi gibi embriyonik kaynaşma hatlarında BKH derine ve kemik/kıkırdak boyunca **beklenenden geniş** yayılır. Bu alanlarda **Mohs cerrahisi** nüksü en aza indirir; rekonstrüksiyon (Bölüm 11) yalnızca **negatif sınır** doğrulandıktan sonra planlanmalıdır.
+    Burun kanadı, nazolabial oluk, iç kantus, periaurikuler bölge ve kulak kepçesi gibi embriyonik kaynaşma hatlarında BHK derine ve kemik/kıkırdak boyunca **beklenenden geniş** yayılır. Bu alanlarda **Mohs cerrahisi** nüksü en aza indirir; rekonstrüksiyon (Bölüm 11) yalnızca **negatif sınır** doğrulandıktan sonra planlanmalıdır.
 
 ## Kutanöz skuamöz hücreli karsinom
 
@@ -336,7 +336,7 @@ Tablo: Castleman hastalığının formları
 Lenfomayı taklit edebilen diğer antiteler — **Kikuchi–Fujimoto**, **Rosai–Dorfman** (S100+, CD1a−, emperipolezis), sarkoidoz ve enfeksiyöz lenfadenitler (Bölüm 5) ile **Kimura hastalığı** ve **IgG4 ilişkili hastalık** (Bölüm 22) — ayırıcı tanıda mutlaka düşünülmeli; tanı her zaman yeterli doku örneğine dayanmalıdır.
 
 !!! ozet "Kritik noktalar"
-    - BKH: en sık burunda; **metastaz çok nadir**; morfeaform/infiltratif ve bazoskuamöz alt tipler yüksek riskli. Düşük riskte **4 mm** sınır; yüksek riskte (baş-boyun, rekürren, agresif histoloji) **Mohs/PDEMA**. İleri hastalıkta **vismodegib/sonidegib**, ardından semiplimab. **Gorlin: PTCH1**, odontojenik keratokist, avuç içi çukurcukları, falks kalsifikasyonu — RT'den kaçın.
+    - BHK: en sık burunda; **metastaz çok nadir**; morfeaform/infiltratif ve bazoskuamöz alt tipler yüksek riskli. Düşük riskte **4 mm** sınır; yüksek riskte (baş-boyun, rekürren, agresif histoloji) **Mohs/PDEMA**. İleri hastalıkta **vismodegib/sonidegib**, ardından semiplimab. **Gorlin: PTCH1**, odontojenik keratokist, avuç içi çukurcukları, falks kalsifikasyonu — RT'den kaçın.
     - kSKH yüksek risk: **>2 cm (>4 cm çok yüksek)**, derinlik **>6 mm**/yağın ötesi, kötü diferansiyasyon, **PNI (≥0,1 mm)**, LVI, kulak/dudak, immünsupresyon (nakilde **65–250 kat** risk). **AJCC 8 (yalnız baş-boyun):** T1 <2, T2 2–<4, **T3 ≥4 cm veya PNI/derin invazyon/minör kemik erozyonu**, T4a kortikal kemik, **T4b kafa tabanı**.
     - Yüz/saçlı deri/kulak kSKH ve melanomunda ilk istasyon **parotis**; N+ hastada **parotidektomi + boyun diseksiyonu**, ardından **postoperatif RT** (karboplatin eklemenin yararı yok — **TROG 05.01**).
     - kSKH immünoterapisi: **semiplimab, pembrolizumab, kosibelimab (2024)**; **C-POST: adjuvan semiplimab DFS HR 0,32 (FDA Ekim 2025)**; KEYNOTE-630 (pembrolizumab) etkisiz; neoadjuvan semiplimab pCR **%51**.
