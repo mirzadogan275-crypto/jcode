@@ -152,6 +152,14 @@ def render_qbank(body: str, counters: dict) -> str:
             f'{"".join(ans)}</div>\n')
 
 
+def fix_ol_start(htm: str) -> str:
+    """WeasyPrint <ol start> özniteliğini yok sayar; numarayı CSS sayacıyla taşır."""
+    def repl(m):
+        n = int(m.group(2))
+        return f'<ol{m.group(1)} start="{n}"{m.group(3)} style="counter-reset: list-item {n - 1}">'
+    return re.sub(r'<ol([^>]*?)\sstart="(\d+)"([^>]*)>', repl, htm)
+
+
 def preprocess(md_text: str, chnum, counters: dict) -> str:
     # ```qbank ... ``` blokları → soru listesi + yanıtlar
     md_text = re.sub(r"^```qbank\s*\n(.*?)^```\s*$", lambda m: render_qbank(m.group(1), counters),
@@ -392,6 +400,7 @@ def build(only=None, html_only=False):
 <meta name="description" content="{BOOK_SUBTITLE}"/>
 <link rel="stylesheet" href="style.css"/></head>
 <body>{"".join(body_parts)}</body></html>'''
+    doc = fix_ol_start(doc)
     open(OUT_HTML, "w", encoding="utf-8").write(doc)
     print(f"HTML yazıldı: {OUT_HTML}  | bölüm: {stats['chapters']}  | kelime (bölümler): {stats['words']:,}")
     if html_only:

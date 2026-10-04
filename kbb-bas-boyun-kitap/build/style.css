@@ -274,3 +274,20 @@ section.part h1.ptitle { bookmark-level: 1; bookmark-label: attr(data-bm); }
 header.chopen h1 { bookmark-level: 2; bookmark-label: attr(data-bm); }
 h2 { bookmark-level: 3; }
 section.backmatter header.chopen h1 { bookmark-level: 1; }
+
+/* Kaynakça */
+.refs { font-family: "BookSans"; font-size: 8.7pt; line-height: 1.34; }
+.refs h2 { margin-top: 5mm; }
+.refs ol { padding-left: 8mm; margin: 1.5mm 0 3mm 0; }
+.refs li { margin-bottom: 1.3mm; text-align: left; hyphens: manual; overflow-wrap: anywhere; break-inside: avoid; }
+.refs li::marker { color: #0f4c5c; font-weight: 700; }
+.refs em { font-style: italic; color: #16697a; }
+
+/* Arka kısım (kaynakça): üst bilgide bölüm numarası yerine "Kaynakça" */
+section.backmatter { page: backmatter; }
+@page backmatter:left {
+  @top-left { content: "Kaynakça"; font-family: "BookSans"; font-size: 7.6pt; color: #5b6770; vertical-align: bottom; padding-bottom: 2mm; }
+}
+@page backmatter:right {
+  @top-left { content: "Kaynakça"; font-family: "BookSans"; font-size: 7.6pt; color: #9aa6ad; vertical-align: bottom; padding-bottom: 2mm; }
+}

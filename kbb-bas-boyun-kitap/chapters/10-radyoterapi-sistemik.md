@@ -80,7 +80,7 @@ digraph G {
     **JCOG1008** (Kiyota, JCO 2022): Postoperatif yüksek riskli hastalarda **haftalık 40 mg/m² sisplatin**, üç haftalık 100 mg/m² şemasına **eşdeğer (non-inferior)** bulunmuş ve daha az toksik olmuştur. Buna karşılık **ConCERT** (Noronha, JCO 2018; Hindistan) çalışmasında **haftalık 30 mg/m²** sisplatin, lokobölgesel kontrolde üç haftalık şemanın **gerisinde** kalmıştır. Sonuç: haftalık şema kullanılacaksa doz **40 mg/m²** olmalıdır; kümülatif sisplatin dozunun **≥200 mg/m²** olması hedeflenir.
 
 !!! guncel "Güncel — NIVOPOSTOP (GORTEC 2018-01)"
-    Rezeke edilmiş, nüks riski yüksek (ENE, pozitif sınır ve/veya çok sayıda pozitif nod gibi özellikler) lokal ileri BBSHK'da postoperatif **sisplatin-radyoterapiye nivolumab eklenmesi**, 3 yıllık hastalıksız sağkalımı **%52,5'ten %63,1'e** yükseltmiştir (HR 0,76; p=0,034). Fayda PD-L1 ifadesinden bağımsızdır. Onlarca yıl sonra sisplatin-radyoterapiye üstünlük gösteren ilk adjuvan rejimdir (ASCO 2025; Lancet). Kılavuzlara ve geri ödeme sistemlerine entegrasyonu sürmektedir.
+    Rezeke edilmiş, nüks riski yüksek (ENE, pozitif sınır ve/veya çok sayıda pozitif nod gibi özellikler) lokal ileri BBSHK'da postoperatif **sisplatin-radyoterapiye nivolumab eklenmesi**, 3 yıllık hastalıksız sağkalımı **%52,5'ten %63,1'e** yükseltmiştir (HR 0,76; p=0,034). Fayda PD-L1 ifadesinden bağımsızdır. Onlarca yıl sonra sisplatin-radyoterapiye üstünlük gösteren ilk adjuvan rejimdir (ASCO 2025; Lancet 2026). Kılavuzlara ve geri ödeme sistemlerine entegrasyonu sürmektedir.
 
 ### Sisplatine uygun olmayan hasta
 
