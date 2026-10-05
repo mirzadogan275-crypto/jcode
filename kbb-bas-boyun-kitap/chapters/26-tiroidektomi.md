@@ -123,7 +123,7 @@ Tablo: Hipokalsemi bulguları ve tedavisi
 Sıklığı ≈%1'dir; **büyük çoğunluğu ilk 6 saatte**, nadiren 24 saate kadar gelişir. Risk faktörleri: erkek cinsiyet, ileri yaş, **Graves hastalığı**, antikoagülan kullanımı, bilateral cerrahi, hipertansiyon, öğürme/öksürük. Havayolu tehlikesi doğrudan trakea basısından çok **venöz/lenfatik konjesyona bağlı larenks ödemiyle** gelişir.
 
 !!! dikkat "Acil yaklaşım — yatak başında yarayı aç"
-    Boyunda hızla büyüyen şişlik ve solunum sıkıntısında hasta ameliyathaneye götürülmeyi beklemeden **yatak başında cilt dikişleri ve strap kaslar açılarak** hematom boşaltılır (İngiltere'de "SCOOP": deriyi aç, dikişleri kes, cildi aç, kasları aç, yarayı tampone et); ardından ameliyathanede kanama kontrolü yapılır. Larenks ödemi nedeniyle entübasyon zor olabilir; cerrahi havayoluna hazırlıklı olunmalıdır.
+    Boyunda hızla büyüyen şişlik ve solunum sıkıntısında hasta ameliyathaneye götürülmeyi beklemeden **yatak başında cilt dikişleri ve strap kaslar açılarak** hematom boşaltılır (İngiltere'de "SCOOP": **S**kin exposure — boynu açığa çıkar, **C**ut sutures — dikişleri kes, **O**pen skin — cildi aç, **O**pen muscles — kasları aç, **P**ack — yarayı tamponla); ardından ameliyathanede kanama kontrolü yapılır. Larenks ödemi nedeniyle entübasyon zor olabilir; cerrahi havayoluna hazırlıklı olunmalıdır.
 
 ### Diğer komplikasyonlar
 
