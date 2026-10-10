@@ -604,6 +604,8 @@ image of /Resume for codex sessions
 
 Skills are not all loaded on startup. The conversation is embedded as a semantic vector, and will automatically inject a skill if there is an embedding hit similar to memories. The agent has a skill tool for you to manually activate a skill at anytime. You may also activate via slash commands. 
 
+This repo ships third-party skill packs in `.jcode/skills/` (marketing, stop-slop, UI/UX Pro Max, context engineering). Run `scripts/install_skills.sh --global` to install them, plus the Remotion skills, into `~/.jcode/skills/` for every project, or `scripts/install_skills.sh --list` to see the packs.
+
 ---
 
 ## iOS Application / Native OpenClaw
